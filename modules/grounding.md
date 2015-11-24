@@ -36,10 +36,10 @@ Before getting deeper, you should read these articles and/or comments.
 
 Which article(s) did you find the most useful?
 
-- [X] A generic introduction to object oriented programming in PHP
-- [X] Design Patterns
-- [X] Getting Started - Background & Prerequisites (Drupal 8)
-- [X] How I learned Drupal 8
+- [ ] A generic introduction to object oriented programming in PHP
+- [ ] Design Patterns
+- [ ] Getting Started - Background & Prerequisites (Drupal 8)
+- [ ] How I learned Drupal 8
 
 Remember that Drupal, just like other successful pieces of software, evolves faster than any individual could keep up with it, so it's good to have some treasures even in the groundings.
 
