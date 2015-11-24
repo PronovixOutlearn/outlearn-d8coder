@@ -32,16 +32,3 @@ Before getting deeper, you should read these articles and/or comments.
 
 <!-- @link, "url" : "https://dev.acquia.com/blog/how-i-learned-drupal-8", "text" : "I have learned about some useful resources and tools", "title" : "How I learned Drupal 8", "description" : "In this post, Alejandro Garza will share his experience on trying to learn Drupal 8 during its alpha stage, talk about some of the challenges of keeping up with the ongoing changes while trying to learn it, and end with some tips and resources which proved useful for him" -->
 
-<!-- @multipleChoice -->
-
-Which article(s) did you find the most useful?
-
-- [ ] A generic introduction to object oriented programming in PHP
-- [ ] Design Patterns
-- [ ] Getting Started - Background & Prerequisites (Drupal 8)
-- [ ] How I learned Drupal 8
-
-Remember that Drupal, just like other successful pieces of software, evolves faster than any individual could keep up with it, so it's good to have some treasures even in the groundings.
-
-<!-- @end -->
-
