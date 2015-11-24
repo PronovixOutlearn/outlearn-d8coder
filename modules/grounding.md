@@ -60,3 +60,30 @@ We think this is one of the most useful resources about Drupal 8 out there.
 
 <!-- @link, "url" : "https://drupalize.me/blog/201503/dependency-injection-traits-drupal-8", "text" : "I will not use Traits for dependency injection", "title" : "A Peek at Traits in Drupal 8", "description" : "Have you ever gone to the grocery store and bought something that you already had in your pantry? Sometimes I forget to peek into the dark corners of my cupboard before heading out to the store" -->
 
+## Dependency Injection Example
+
+<!-- @link, "url" : "https://www.drupal.org/node/2116767#comment-10503230", "text" : "I have understood the simplest example of dependency injection", "title" : "Dependency Injection Example", "description" : "Let's assume we need to format current date according to Drupal regional and language settings. We can achieve this by injecting `date.formatter` core service to perform date formating" -->
+
+## Services and dependency injection in Drupal 8
+
+<!-- @link, "url" : "https://www.drupal.org/node/2133171", "text" : "I have learned that using services directly may be worse than dependency injection", "title" : "Services and dependency injection in Drupal 8", "description" : "Drupal 8 introduces the concept of services to decouple reusable functionality and makes these services pluggable and replaceable by registering them with a service container" -->
+
+## Plugins
+
+The first article should onboard you for working with plugins, the second describes how plugins work in more detail.
+
+<!-- @link, "url" : "https://drupalize.me/blog/201407/drupal-8-plugins-explained", "text" : "I have seen what are those awesome plugins", "title" : "Drupal 8 Plugins Explained", "description" : "As you start down the road of learning Drupal 8 module development, one of the first new Drupalisms that you're likely to encounter are plugins" -->
+
+<!-- @link, "url" : "https://drupalize.me/blog/201409/unravelling-drupal-8-plugin-system", "text" : "I have understood that the plugin system is awesome in general", "title" : "Unravelling the Drupal 8 Plugin System", "description" : "Plugins play an important role in Drupal 8, and understanding how the entire plugin system works will help us better understand how, when, where, and why we use plugins" -->
+
+## Annotations-based plugins
+
+<!-- @link, "url" : "https://www.drupal.org/node/1882526", "text" : "I have learned how my code is driven by my comments", "title" : "Annotations-based plugins", "description" : "Most of the plugins in Drupal 8 will use annotations to register themselves and describe their metadata" -->
+
+<!-- @section -->
+
+# Bored of typing that much code all the day?
+
+Type tirelessly around the clock, you should not, Yoda said, as there's a new hope: a tool that helps in scaffolding.
+
+<!-- @link, "url" : "http://drupalconsole.com/", "text" : "I have added Drupal Console to my toolchain", "title" : "Drupal Console", "description" : "The Drupal Console is a suite of tools that you run on a command line interface (CLI) to generate boilerplate code and interact with a Drupal 8 installation" -->
