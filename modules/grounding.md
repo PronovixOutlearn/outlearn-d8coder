@@ -1,6 +1,6 @@
 <!--
 {
-"name" : "d8-coder-grounding",
+"name" : "grounding",
 "version" : "0.1",
 "title" : "Grounding",
 "description" : "Without proper foundation, every house will collapse",

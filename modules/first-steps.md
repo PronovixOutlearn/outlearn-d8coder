@@ -1,6 +1,6 @@
 <!--
 {
-"name" : "d8-coder-firststeps",
+"name" : "first-steps",
 "version" : "0.1",
 "title" : "First steps",
 "description" : "First steps in Drupal 8 module development is to know the novelties of the platform",
