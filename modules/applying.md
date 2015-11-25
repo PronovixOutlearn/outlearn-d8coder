@@ -43,7 +43,7 @@ What about having a form in a block? There is [example code](https://github.com/
 
 Form alteration has not changed too much since Drupal 7. You should add a `hook_form_alter()` implementation to your `.module` file, and the only difference in its signature is the same as with the form builder, validate and submit functions: the `$form_state` is no longer an array but a [`\Drupal\Core\Form\FormStateInterface`](https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Form%21FormStateInterface.php/interface/FormStateInterface/8) object.
 
-<!-- @task, "text" : "I have created my own `hook_form_alter()` implementation." -->
+<!-- @task, "text" : "Create your own `hook_form_alter()` implementation." -->
 
 <!-- @section -->
 
