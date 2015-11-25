@@ -21,7 +21,7 @@
 
   "modules" : [
     {"olm" : "./modules/first-steps.md"},
-    {"olm" : "./modules/grounding.md"}
+    {"olm" : "./modules/grounding.md"},
     {"olm" : "./modules/applying.md"}
   ],
 
