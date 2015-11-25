@@ -26,7 +26,7 @@ Before getting deeper, you should read these articles and/or comments.
 
 ## Getting Started - Background & Prerequisites (Drupal 8)
 
-<!-- @link, "url" : "https://www.drupal.org/node/2182165", "text" : "I have understood that this documentation page is a useful starting point that I can make use of later", "title" : "Getting Started - Background & Prerequisites (Drupal 8)", "description" : "Drupal 8 leverages a number of advanced PHP language features and sophisticated 3rd party libraries in order to present 3rd party developers with the most advanced API of any CMS available" -->
+<!-- @link, "url" : "https://www.drupal.org/node/2182165", "text" : "I have understood that this documentation page is a useful starting point that I can make use of later", "title" : "Getting Started - Background & Prerequisites (Drupal 8)", "description" : "Drupal 8 leverages a number of advanced PHP language features and sophisticated 3rd party libraries in order to present 3rd party developers with the most advanced API of any CMS available", "imageUrl" : "https://www.drupal.org/files/drupal%208%20logo%20isolated%20CMYK%2072.png" -->
 
 ## How I learned Drupal 8
 
@@ -62,7 +62,7 @@ We think this is one of the most useful resources about Drupal 8 out there.
 
 ## Dependency Injection Example
 
-<!-- @link, "url" : "https://www.drupal.org/node/2116767#comment-10503230", "text" : "I have understood the simplest example of dependency injection", "title" : "Dependency Injection Example", "description" : "Let's assume we need to format current date according to Drupal regional and language settings. We can achieve this by injecting `date.formatter` core service to perform date formating" -->
+<!-- @link, "url" : "https://www.drupal.org/node/2116767#comment-10503230", "text" : "I have understood the simplest example of dependency injection", "title" : "Dependency Injection Example", "description" : "Let's assume we need to format current date according to Drupal regional and language settings. We can achieve this by injecting `date.formatter` core service to perform date formating", "imageUrl" : "https://www.drupal.org/files/drupal%208%20logo%20isolated%20CMYK%2072.png" -->
 
 ## Services and dependency injection in Drupal 8
 
