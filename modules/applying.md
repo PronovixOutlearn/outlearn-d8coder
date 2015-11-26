@@ -12,6 +12,12 @@
 
 <!-- @section -->
 
+# Breadcrumbs That Work
+
+<!-- @link, "url" : "https://www.palantir.net/blog/d8ftw-breadcrumbs-work", "text" : "I have seen how effective the new breadcrumb system is", "title" : "D8FTW: Breadcrumbs That Work", "description" : "Breadcrumbs have long been the bane of every Drupal developer's existence. In simple cases, they work fine out of the box. Once you get even a little complex, though, they get quite unwieldy" -->
+
+<!-- @section -->
+
 # Custom page with menu item and custom access check
 
 <!-- TODO: Publish this as a blogpost on pronovix.com and reuse the content from there -->
