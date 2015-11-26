@@ -24,6 +24,10 @@ Before getting deeper, you should read these articles and/or comments.
 
 <!-- @link, "url" : "http://www.phptherightway.com/pages/Design-Patterns.html", "text" : "I have read about the Factory, Singleton, Strategy, Front Controller and MVC patterns", "description" : "There are numerous ways to structure the code and project for your web application, and you can put as much or as little thought as you like into architecting. But it is usually a good idea to follow common patterns" -->
 
+## Drupal 8 Modules: A New World in Module Writing
+
+<!-- @link, "url" : "https://drupalwatchdog.com/volume-3/issue-2/drupal-8-modules", "text" : "I have learned that a lot of things changed, but this will make my life easier", "title" : "Drupal 8 Modules: A New World in Module Writing", "description" : "This article will be more about the patterns you need to use during Drupal 8 development than how to fit the various pieces together" -->
+
 ## Getting Started - Background & Prerequisites (Drupal 8)
 
 <!-- @link, "url" : "https://www.drupal.org/node/2182165", "text" : "I have understood that this documentation page is a useful starting point that I can make use of later", "title" : "Getting Started - Background & Prerequisites (Drupal 8)", "description" : "Drupal 8 leverages a number of advanced PHP language features and sophisticated 3rd party libraries in order to present 3rd party developers with the most advanced API of any CMS available", "imageUrl" : "https://www.drupal.org/files/drupal%208%20logo%20isolated%20CMYK%2072.png" -->
