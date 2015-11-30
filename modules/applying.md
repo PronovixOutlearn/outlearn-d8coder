@@ -51,6 +51,10 @@ Form alteration has not changed too much since Drupal 7. You should add a `hook_
 
 <!-- @task, "text" : "Create your own `hook_form_alter()` implementation." -->
 
+## Using AJAX forms in Drupal 8
+
+<!-- @link, "url": "http://www.sitepoint.com/using-ajax-forms-drupal-8/", "text" : "I have learned that AJAXifying forms got even more powerful", "title" : "Using AJAX forms in Drupal 8", "description" : "A clean way of using the Drupal 8 Ajax API without writing a single line of JavaScript code" -->
+
 <!-- @section -->
 
 # Custom tables and displaying/saving data (basic Schema API)
@@ -110,3 +114,57 @@ Two years into the development of Drupal 8, Dries Buytaert announced that Drupal
 <!-- @link, "url" : "https://drupalwatchdog.com/volume-5/issue-2/configuration-workflow", "text" : "I have learned the basics of the config workflow", "title" : "Configuration workflow", "description" : "Large website projects involving multiple people in different roles face special challenges. The work needs to be coordinated and scheduled in such a way as to allow for parallel development of different parts of the project on different systems" -->
 
 Configuration workflow (ie. how to export config, move it around with git, import it on the other instance, etc.) will be covered on the upcoming sitebuilder path mode detailed.
+
+<!-- @section -->
+
+# Fields: types, widgets, formatters, pseudo fields
+
+## Writing custom fields in Drupal 8
+
+<!-- @link, "url": "http://capgemini.github.io/drupal/writing-custom-fields-in-drupal-8/", "text" : "I have written at least one custom formatter", "title" : "Writing custom fields in Drupal 8", "description" : "Fields are the data entry points to a web application. Usually, they provide HTML elements and may be responsible for any manipulation of data before it goes into and comes out of the application" -->
+
+## Creating pseudo-fields in Drupal 8
+
+<!-- @link, "url": "http://www.webomelette.com/creating-pseudo-fields-drupal-8", "text" : "I have understood how to create a custom pseudo field", "title" : "Creating pseudo-fields in Drupal 8", "description" : "Pseudo-fields are simple display fields that you can control from the display settings of a particular entity type" -->
+
+<!-- @section -->
+
+# Caching
+
+## Cache API
+
+<!-- @link, "url": "https://api.drupal.org/api/drupal/core%21core.api.php/group/cache/8", "text" : "I have learned how elaborated the new Cache API is", "title" : "Cache API", "description" : "The Cache API is used to store data that takes a long time to compute. Caching can either be permanent or valid only for a certain timespan, and the cache can contain any type of data" -->
+
+## Cache API in Drupal 8
+
+<!-- @link, "url": "https://www.drupal.org/developing/api/8/cache", "text" : "I have shed some more light to the details of the new Cache API", "title" : "Cache API in Drupal 8", "description" : "The Cache API is much improved in Drupal 8. The sections on this handbook page go into more detail on each feature" -->
+
+## Cacheability of render arrays
+
+<!-- @link, "url": "https://www.drupal.org/developing/api/8/render/arrays/cacheability", "text" : "I have understood that I should provide caching-related information in the render arrays", "title" : "Cacheability of render arrays", "description" : "Render arrays determine what is shown to the user. Therefore, arrays also determine how cacheable a response is" -->
+
+<!-- @section -->
+
+# Events and event subscribers
+
+<!-- @link, "url": "http://www.sitepoint.com/drupal-8-hooks-symfony-event-dispatcher/", "text" : "I have seen how some hooks got replaced by Symfony events", "title" : "Drupal 8 Hooks and the Symfony Event Dispatcher", "description" : "The both loved and hated hook system is getting slowly replaced. Plugins and annotations are taking away much of the need for info hooks and the Symfony Event Dispatcher component is replacing some of the invoked hooks" -->
+
+<!-- @section -->
+
+# Working with entities
+
+## Entity queries and loading entities
+
+<!-- @link, "url": "https://docs.acquia.com/articles/drupal-8-entity-queries-and-loading-entities", "text" : "I have replaced my EFQ autocompletion with this new entity query in my editor", "title" : "Entity queries and loading entities", "description" : "Querying entities has changed since Drupal 7 because EntityFieldQuery has been replaced by the core service called entity.query which can instantiate a query object for a specified entity type" -->
+
+<!-- @section -->
+
+# Views in core
+
+## Creating a custom Views field in Drupal 8
+
+<!-- @link, "url": "http://www.webomelette.com/creating-custom-views-field-drupal-8", "text" : "I have learned how easy it is to create a custom Views field", "title" : "Creating a custom Views field in Drupal 8", "description" : "At the end of this tutorial, you will be able to add a new field to any node based View which will flag (by displaying a specific message) the nodes of a particular type (configurable in the field configuration). Although I will use nodes, you can use this example to create custom fields for other entities as well" -->
+
+## Creating a custom Views filter in Drupal 8
+
+<!-- @link, "url": "http://www.webomelette.com/creating-custom-views-filter-drupal-8", "text" : "I have learned how easy it is to create a custom Views filter", "title" : "Creating a custom Views filter in Drupal 8", "description" : "How can we create a custom filter you can then add to the View in the UI and influence the results based on that" -->
