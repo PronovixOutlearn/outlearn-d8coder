@@ -133,15 +133,15 @@ Configuration workflow (ie. how to export config, move it around with git, impor
 
 ## Cache API
 
-<!-- @link, "url": "https://api.drupal.org/api/drupal/core%21core.api.php/group/cache/8", "text" : "I have learned how elaborated the new Cache API is", "title" : "Cache API", "description" : "The Cache API is used to store data that takes a long time to compute. Caching can either be permanent or valid only for a certain timespan, and the cache can contain any type of data" -->
+<!-- @link, "url": "https://api.drupal.org/api/drupal/core%21core.api.php/group/cache/8", "text" : "I have learned how elaborated the new Cache API is", "title" : "Cache API", "description" : "The Cache API is used to store data that takes a long time to compute. Caching can either be permanent or valid only for a certain timespan, and the cache can contain any type of data", "imageUrl" : "https://www.drupal.org/files/drupal%208%20logo%20isolated%20CMYK%2072.png" -->
 
 ## Cache API in Drupal 8
 
-<!-- @link, "url": "https://www.drupal.org/developing/api/8/cache", "text" : "I have shed some more light to the details of the new Cache API", "title" : "Cache API in Drupal 8", "description" : "The Cache API is much improved in Drupal 8. The sections on this handbook page go into more detail on each feature" -->
+<!-- @link, "url": "https://www.drupal.org/developing/api/8/cache", "text" : "I have shed some more light to the details of the new Cache API", "title" : "Cache API in Drupal 8", "description" : "The Cache API is much improved in Drupal 8. The sections on this handbook page go into more detail on each feature", "imageUrl" : "https://www.drupal.org/files/drupal%208%20logo%20isolated%20CMYK%2072.png" -->
 
 ## Cacheability of render arrays
 
-<!-- @link, "url": "https://www.drupal.org/developing/api/8/render/arrays/cacheability", "text" : "I have understood that I should provide caching-related information in the render arrays", "title" : "Cacheability of render arrays", "description" : "Render arrays determine what is shown to the user. Therefore, arrays also determine how cacheable a response is" -->
+<!-- @link, "url": "https://www.drupal.org/developing/api/8/render/arrays/cacheability", "text" : "I have understood that I should provide caching-related information in the render arrays", "title" : "Cacheability of render arrays", "description" : "Render arrays determine what is shown to the user. Therefore, arrays also determine how cacheable a response is", "imageUrl" : "https://www.drupal.org/files/drupal%208%20logo%20isolated%20CMYK%2072.png" -->
 
 <!-- @section -->
 
