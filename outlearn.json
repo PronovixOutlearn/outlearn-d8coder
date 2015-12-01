@@ -14,6 +14,7 @@
         {"module" : "first-steps"},
         {"module" : "grounding"},
         {"module" : "applying"},
+        {"module" : "multilingual"},
         {"page" : "./pages/closing.md"}
       ]
     }
@@ -22,7 +23,8 @@
   "modules" : [
     {"olm" : "./modules/first-steps.md"},
     {"olm" : "./modules/grounding.md"},
-    {"olm" : "./modules/applying.md"}
+    {"olm" : "./modules/applying.md"},
+    {"olm" : "./modules/multilingual.md"}
   ],
 
   "assets" : [
