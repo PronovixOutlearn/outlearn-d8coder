@@ -14,11 +14,15 @@
 
 # Breadcrumbs That Work
 
+Non-working breadcrumbs will get consumed by birds. Working breadcrumbs are good for spiders, too.
+
 <!-- @link, "url" : "https://www.palantir.net/blog/d8ftw-breadcrumbs-work", "text" : "I have seen how effective the new breadcrumb system is", "title" : "D8FTW: Breadcrumbs That Work", "description" : "Breadcrumbs have long been the bane of every Drupal developer's existence. In simple cases, they work fine out of the box. Once you get even a little complex, though, they get quite unwieldy" -->
 
 <!-- @section -->
 
 # Custom page with menu item and custom access check
+
+Adding a custom access checker for a page needs a bit more work now.
 
 <!-- TODO: Publish this as a blogpost on pronovix.com and reuse the content from there -->
 <!-- @link, "url" : "https://github.com/boobaa/d7to8/blob/master/access.md", "text" : "I have learned how to create a custom access check service", "title" : "Custom access control to a page", "description" : "Display the user's name and email - but every user should be able to access only his/her own page" -->
@@ -29,9 +33,13 @@
 
 ## Creating Custom Forms in Drupal 8
 
+This is the "Hello other side of the World" example.
+
 <!-- @link, "url" : "http://www.trellon.com/content/blog/how-create-custom-form-in-drupal-8", "text" : "I have created my first Drupal 8 form", "title" : "Creating Custom Forms in Drupal 8", "description" : "A gentle introduction to creating forms in Drupal 8, highlighting the differences and similarities to how you would do this in previous versions of the platform" -->
 
 ## A Look Inside Drupal 8's Block Plugin API
+
+Any and all pages on a Drupal 8 site are built with blocks. Yes, the main page content is a block, too.
 
 <!-- @link, "url" : "https://drupalize.me/blog/201404/look-inside-drupal-8s-block-plugin-api", "text" : "I have learned how easy is creating a custom block", "title" : "A Look Inside Drupal 8's Block Plugin API", "description" : "This blog post takes a look at how a module developer might create custom blocks in Drupal 8" -->
 
@@ -43,6 +51,8 @@ What about having a form in a block? There is [example code](https://github.com/
 
 ## How to Build Multi-step Forms in Drupal 8
 
+Single pages, single forms, single-page forms are easy, but what about a multi-step form?
+
 <!-- @link, "url" : "http://www.sitepoint.com/how-to-build-multi-step-forms-in-drupal-8/", "text" : "I have seen that creating a base class for a common functionality is a good idea", "title" : "How to Build Multi-step Forms in Drupal 8", "description" : "We are going to look at building a multistep form in Drupal 8. For brevity, the form will have only two steps in the shape of two completely separate forms. To persist values across these steps, we will use functionality provided by Drupal’s core for storing temporary and private data across multiple requests" -->
 
 ## Changing forms by `hook_form_alter()`
@@ -53,22 +63,28 @@ Form alteration has not changed too much since Drupal 7. You should add a `hook_
 
 ## Using AJAX forms in Drupal 8
 
+We all know AJAX can make our lives nicer, although a bit more complicated in some cases. And no, it's not about the football club nor the cleaner.
+
 <!-- @link, "url": "http://www.sitepoint.com/using-ajax-forms-drupal-8/", "text" : "I have learned that AJAXifying forms got even more powerful", "title" : "Using AJAX forms in Drupal 8", "description" : "A clean way of using the Drupal 8 Ajax API without writing a single line of JavaScript code" -->
 
 <!-- @section -->
 
 # Custom tables and displaying/saving data (basic Schema API)
 
+Want a basic phonebook? Here's one.
+
 <!-- TODO: Publish this as a blogpost on pronovix.com and reuse the content from there -->
 <!-- @link, "url" : "https://github.com/boobaa/d7to8/blob/master/phonebook.md", "text" : "I have seen how cumbersome could be knocking a phonebook together", "title" : "Old-fashioned phonebook", "description" : "List all the entries in a sortable, pagered page; use the same form for adding and editing entries; protect deletion against CSRF without forms" -->
 
-It would be easier if we could use Views, at least for the listing part, wouldn't it? Well, that part is not yet done.
+It would be easier if we could use Views, at least for the listing part, wouldn't it? Well, that part is not written yet.
 
 <!-- @section -->
 
 # Long-running tasks
 
 ## Batch API
+
+Hate context switches? Get things done in batches!
 
 <!-- TODO: Publish this as a blogpost on pronovix.com and reuse the content from there -->
 <!-- @link, "url" : "https://github.com/boobaa/d7to8/blob/master/d8/d8batch/README.md", "text" : "I have learned that I don't have to learn the Batch API again", "title" : "D8 Batch API example", "description" : "This module is basically a demonstration of how can you import feed sources from a CSV file to Drupal" -->
@@ -83,7 +99,11 @@ Okay, we couldn't find the description of the code Daniel Sipos has published, b
 
 # Mail API
 
+Sending a mail is pretty much the same, although we're using a service now.
+
 <!-- @link, "url" : "http://code.tutsplus.com/tutorials/using-and-extending-the-drupal-8-mail-api-part-1--cms-23419", "text" : "I have learned the basics of mailing", "title" : "Using and Extending the Drupal 8 Mail API, Part 1: Sending and Altering", "description" : "In the first part we will create a custom email template that gets used for sending emails to the current user when s/he saves a new Article node. Additionally, we will see how others can alter that template in order to allow for HTML rendering of the email body instead of the default plain text" -->
+
+We can even replace the Drupal mail manager service with one that uses a 3rd-party service. Confusing, isn't it?
 
 <!-- @link, "url" : "http://code.tutsplus.com/tutorials/using-and-extending-the-drupal-8-mail-api-part-2--cms-23484", "text" : "I have seen how to use an external service for sending mail", "title" : "Using and Extending the Drupal 8 Mail API, Part 2: Using an external service", "description" : "Look at how we can use the Mail API to extend the default behaviour. The purpose is to use an external service as a means for email delivery" -->
 
@@ -95,25 +115,39 @@ Two years into the development of Drupal 8, Dries Buytaert announced that Drupal
 
 <!-- @link, "url" : "https://drupalwatchdog.com/volume-4/issue-1/migrate-overview", "text" : "I have understood there are no `hook_update_N()` implementations any longer for major version upgrades", "title" : "Migrate Overview", "description" : "This unorthodox decision was made to support substantial improvements in Drupal’s major version upgrade process by introducing a robust new sub-system based on the popular contributed modules Migrate and Migrate D2D" -->
 
+A good Drupal coder should have a starting point for migration-related documentation, too.
+
 <!-- @link, "url" : "https://drupalwatchdog.com/volume-4/issue-1/migrate-api", "text" : "I have learned the core of the Migration API", "title" : "Migrate API: Technically speaking", "description" : "The migrate API works with plugins and stores the configuration for those plugins in a configuration entity. There are a number of plugin types offered: source, process, and destination are the most important" -->
 
 <!-- @section -->
 
 # Configuration Management Initiative (CMI)
 
+Configuration management has some roots in the Drupal 7 era.
+
 <!-- @link, "url" : "http://nuvole.org/blog/2014/jun/06/configuration-management-drupal-7-drupal-8", "text" : "I have seen the relation between CMI (in core) and Features (as a contrib module)", "title" : "Configuration Management: Drupal 7 to Drupal 8", "description" : "Nuvole gave two talks about the current status of Configuration Management in Drupal 8 at European Drupal events in 2014. Developers attending the events were mostly interested in how the future Drupal 8 Configuration Management capabilities will compare to Drupal 7, with and without the Features module" -->
+
+Forms may have their initial configuration values in `.settings.yml` files.
 
 <!-- @link, "url" : "https://docs.acquia.com/articles/drupal-8-configuration-forms-and-cmi", "text" : "I have understood the basics of the Config Management", "title" : "Configuration forms and CMI", "description" : "This lesson introduces both a special type of form called a configuration form and the Configuration Management Initiative (CMI), which describes the effort made to gather the multiple sources of configuration information and functions in Drupal 7 into a single system in Drupal 8" -->
 
+Configuration has its own entities.
+
 <!-- @link, "url" : "https://docs.acquia.com/articles/drupal-8-configuration-and-config-object", "text" : "I have learned about config entities", "title" : "Configuration and the config object", "description" : "Drupal 8 provides a Config object that we can use to interact with the configuration. Some classes already have it available through dependency injection" -->
+
+Did we mention you should bookmark some resources, like this one?
 
 <!-- @link, "url" : "https://www.drupal.org/developing/api/8/configuration", "text" : "I have bookmarked the Config API documentation page from d.o", "title" : "Configuration API in Drupal 8", "description" : "The configuration API provides a central place for modules to store configuration data. This data can be simple configuration like your site name, or more complex information managed with configuration entities, such as views and content types", "imageUrl" : "https://www.drupal.org/files/drupal%208%20logo%20isolated%20CMYK%2072.png" -->
 
+You can add your own stuff to a configuration entity's form.
+
 <!-- @link, "url" : "http://www.webomelette.com/drupal-8-custom-data-configuration-entities-using-thirdpartysettingsinterface", "text" : "I have seen how to properly hook into the forms of config entities (without hooks, actually)", "title" : "Custom data on configuration entites using the ThirdPartySettingsInterface", "description" : "We are going to look at how to use the ThirdPartySettingsInterface to add some extra data to existing configuration entities. For example, if you ever need to store some config together with a node type or a taxonomy vocabulary, there is a great way to do so using this interface" -->
+
+With the advent of CMI, all Drupal 8 developers should know the basics of the core-supported configuration workflow.
 
 <!-- @link, "url" : "https://drupalwatchdog.com/volume-5/issue-2/configuration-workflow", "text" : "I have learned the basics of the config workflow", "title" : "Configuration workflow", "description" : "Large website projects involving multiple people in different roles face special challenges. The work needs to be coordinated and scheduled in such a way as to allow for parallel development of different parts of the project on different systems" -->
 
-Configuration workflow (ie. how to export config, move it around with git, import it on the other instance, etc.) will be covered on the upcoming sitebuilder path mode detailed.
+Configuration workflow (ie. how to export config, move it around with git, import it on the other instance, etc.) will be covered later.
 
 <!-- @section -->
 
@@ -121,9 +155,13 @@ Configuration workflow (ie. how to export config, move it around with git, impor
 
 ## Writing custom fields in Drupal 8
 
+Learning the Field API should start with the easiest things like custom fields and formatters.
+
 <!-- @link, "url": "http://capgemini.github.io/drupal/writing-custom-fields-in-drupal-8/", "text" : "I have written at least one custom formatter", "title" : "Writing custom fields in Drupal 8", "description" : "Fields are the data entry points to a web application. Usually, they provide HTML elements and may be responsible for any manipulation of data before it goes into and comes out of the application" -->
 
 ## Creating pseudo-fields in Drupal 8
+
+The second step in learning the Field API is working with pseudo fields.
 
 <!-- @link, "url": "http://www.webomelette.com/creating-pseudo-fields-drupal-8", "text" : "I have understood how to create a custom pseudo field", "title" : "Creating pseudo-fields in Drupal 8", "description" : "Pseudo-fields are simple display fields that you can control from the display settings of a particular entity type" -->
 
@@ -133,19 +171,27 @@ Configuration workflow (ie. how to export config, move it around with git, impor
 
 ## Cache API
 
+Drupal 8 has a much-improved Cache API, which needs some deeper understanding from the coder, but has great advantages for everybody.
+
 <!-- @link, "url": "https://api.drupal.org/api/drupal/core%21core.api.php/group/cache/8", "text" : "I have learned how elaborated the new Cache API is", "title" : "Cache API", "description" : "The Cache API is used to store data that takes a long time to compute. Caching can either be permanent or valid only for a certain timespan, and the cache can contain any type of data", "imageUrl" : "https://www.drupal.org/files/drupal%208%20logo%20isolated%20CMYK%2072.png" -->
 
 ## Cache API in Drupal 8
 
+Such a multitude of new functions should have their dedicated part in the handbook.
+
 <!-- @link, "url": "https://www.drupal.org/developing/api/8/cache", "text" : "I have shed some more light to the details of the new Cache API", "title" : "Cache API in Drupal 8", "description" : "The Cache API is much improved in Drupal 8. The sections on this handbook page go into more detail on each feature", "imageUrl" : "https://www.drupal.org/files/drupal%208%20logo%20isolated%20CMYK%2072.png" -->
 
 ## Cacheability of render arrays
+
+Yeah, you read it right: you should stop providing HTML as the return values of your page controller. How do you know the result will be rendered in a browser?
 
 <!-- @link, "url": "https://www.drupal.org/developing/api/8/render/arrays/cacheability", "text" : "I have understood that I should provide caching-related information in the render arrays", "title" : "Cacheability of render arrays", "description" : "Render arrays determine what is shown to the user. Therefore, arrays also determine how cacheable a response is", "imageUrl" : "https://www.drupal.org/files/drupal%208%20logo%20isolated%20CMYK%2072.png" -->
 
 <!-- @section -->
 
 # Events and event subscribers
+
+A lot of hooks became obsolete as Drupal 8 has switched to Symfony and its event dispatcher approach.
 
 <!-- @link, "url": "http://www.sitepoint.com/drupal-8-hooks-symfony-event-dispatcher/", "text" : "I have seen how some hooks got replaced by Symfony events", "title" : "Drupal 8 Hooks and the Symfony Event Dispatcher", "description" : "The both loved and hated hook system is getting slowly replaced. Plugins and annotations are taking away much of the need for info hooks and the Symfony Event Dispatcher component is replacing some of the invoked hooks" -->
 
@@ -155,6 +201,8 @@ Configuration workflow (ie. how to export config, move it around with git, impor
 
 ## Entity queries and loading entities
 
+The EntityFieldQuery became more sophisticated than ever.
+
 <!-- @link, "url": "https://docs.acquia.com/articles/drupal-8-entity-queries-and-loading-entities", "text" : "I have replaced my EFQ autocompletion with this new entity query in my editor", "title" : "Entity queries and loading entities", "description" : "Querying entities has changed since Drupal 7 because EntityFieldQuery has been replaced by the core service called entity.query which can instantiate a query object for a specified entity type" -->
 
 <!-- @section -->
@@ -163,8 +211,12 @@ Configuration workflow (ie. how to export config, move it around with git, impor
 
 ## Creating a custom Views field in Drupal 8
 
+That's correct: Views became part of core! You should learn how to code around custom Views fields.
+
 <!-- @link, "url": "http://www.webomelette.com/creating-custom-views-field-drupal-8", "text" : "I have learned how easy it is to create a custom Views field", "title" : "Creating a custom Views field in Drupal 8", "description" : "At the end of this tutorial, you will be able to add a new field to any node based View which will flag (by displaying a specific message) the nodes of a particular type (configurable in the field configuration). Although I will use nodes, you can use this example to create custom fields for other entities as well" -->
 
 ## Creating a custom Views filter in Drupal 8
+
+So you should learn how to code around custom Views filters.
 
 <!-- @link, "url": "http://www.webomelette.com/creating-custom-views-filter-drupal-8", "text" : "I have learned how easy it is to create a custom Views filter", "title" : "Creating a custom Views filter in Drupal 8", "description" : "How can we create a custom filter you can then add to the View in the UI and influence the results based on that" -->
