@@ -17,3 +17,4 @@ Pronovix Drupal 8 Team
 ![László Csécsy](http://pronovix.com/sites/default/files/styles/225x225/public/boobaa_nagy.jpg?itok=poD3U8xO)
 
 **About the author:**
+László has been a backend developer since he met Drupal in 2007. He has experience in HTML, PHP, MySQL, Git, Linux server administration, mentoring, and even a slight touch of jQuery. His main interests are interoperability, architectural discovery, music score engraving and volunteer church work.
