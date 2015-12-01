@@ -14,5 +14,5 @@ Good luck!
 László CSÉCSY<br />
 Pronovix Drupal 8 Team
 
-![László Csécsy](http://pronovix.com/sites/default/files/boobaa_nagy.jpg)
+![László Csécsy](http://pronovix.com/sites/default/files/boobaa_nagy.jpg =250x250)
 
