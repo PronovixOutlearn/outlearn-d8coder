@@ -67,7 +67,7 @@ The best teacher of multilingual stuff is the leader of the Drupal 8 Multilingua
 
 # Deployment friendly automated downloads
 
-<!-- @link, "url" : "http://hojtsy.hu/blog/2013-jul-23/drupal-8-multilingual-tidbits-9-deployment-friendly-automated-downloads", "text" : "I have understood that translation staging became finally possible", "title" : "Deployment friendly automated downloads", "description" : "The new version separates the responsibilities for the base language layer (Language module) from the software's translation (Interface Translation module), and largely expands on the features of the interface translation capability" -->
+<!-- @link, "url" : "http://hojtsy.hu/blog/2013-jul-23/drupal-8-multilingual-tidbits-9-deployment-friendly-automated-downloads", "text" : "I have understood that translation staging became finally possible", "title" : "Deployment friendly automated downloads", "description" : "The new version separates the responsibilities for the base language layer (Language module) from the software's translation (Interface Translation module), and largely expands on the features of the interface translation capability", "imageUrl" : "http://hojtsy.hu/files/gabor_photo_large.jpg" -->
 
 <!-- @section -->
 
@@ -79,58 +79,58 @@ The best teacher of multilingual stuff is the leader of the Drupal 8 Multilingua
 
 # String customizations tracked
 
-<!-- @link, "url" : "http://hojtsy.hu/blog/2013-aug-13/drupal-8-multilingual-tidbits-11-string-customizations-tracked", "text" : "I have learned that my custom translations are kept", "title" : "String customizations tracked", "description" : "We know that not everybody is happy with the community translations proper. So another key feature we included in Drupal 8 is custom translation tracking" -->
+<!-- @link, "url" : "http://hojtsy.hu/blog/2013-aug-13/drupal-8-multilingual-tidbits-11-string-customizations-tracked", "text" : "I have learned that my custom translations are kept", "title" : "String customizations tracked", "description" : "We know that not everybody is happy with the community translations proper. So another key feature we included in Drupal 8 is custom translation tracking", "imageUrl" : "http://hojtsy.hu/files/Drupal8StringExportOptions.png" -->
 
 <!-- @section -->
 
 # English can now be translated to
 
-<!-- @link, "url" : "http://hojtsy.hu/blog/2013-aug-20/drupal-8-multilingual-tidbits-12-english-can-now-be-translated", "text" : "I have understood that I do not need hacks to have custom English strings", "title" : "English can now be translated to", "description" : "By default, if you have English configured, it is not available as a translation target. However, you are only one checkbox away from enabling that feature" -->
+<!-- @link, "url" : "http://hojtsy.hu/blog/2013-aug-20/drupal-8-multilingual-tidbits-12-english-can-now-be-translated", "text" : "I have understood that I do not need hacks to have custom English strings", "title" : "English can now be translated to", "description" : "By default, if you have English configured, it is not available as a translation target. However, you are only one checkbox away from enabling that feature", "imageUrl" : "http://hojtsy.hu/files/Drupal8EditEnglish_0.png" -->
 
 <!-- @section -->
 
 # Much improved software translation UI
 
-<!-- @link, "url" : "http://hojtsy.hu/blog/2013-aug-20/drupal-8-multilingual-tidbits-13-much-improved-software-translation-ui", "text" : "I have seen the highly convenient translation interface", "title" : "Much improved software translation UI", "description" : "We cut out two unnecessary steps and brought in a very quick translation experience instead which even shows you which translations you changed as you go along" -->
+<!-- @link, "url" : "http://hojtsy.hu/blog/2013-aug-20/drupal-8-multilingual-tidbits-13-much-improved-software-translation-ui", "text" : "I have seen the highly convenient translation interface", "title" : "Much improved software translation UI", "description" : "We cut out two unnecessary steps and brought in a very quick translation experience instead which even shows you which translations you changed as you go along", "imageUrl" : "http://hojtsy.hu/files/Drupal8TranslationForm.png" -->
 
 <!-- @section -->
 
 # Intro to content and configuration
 
-<!-- @link, "url" : "http://hojtsy.hu/blog/2013-sep-13/drupal-8-multilingual-tidbits-14-intro-content-and-configuration", "text" : "I have learned about the motivational principles behind translation improvements", "title" : "Intro to content and configuration", "description" : "We still have two major categories of improvements to cover, namely content and configuration language and translation. Before we move on to the details, I wanted to post an introduction because there are very similar motivations and guiding principles around the improvements" -->
+<!-- @link, "url" : "http://hojtsy.hu/blog/2013-sep-13/drupal-8-multilingual-tidbits-14-intro-content-and-configuration", "text" : "I have learned about the motivational principles behind translation improvements", "title" : "Intro to content and configuration", "description" : "We still have two major categories of improvements to cover, namely content and configuration language and translation. Before we move on to the details, I wanted to post an introduction because there are very similar motivations and guiding principles around the improvements", "imageUrl" : "http://hojtsy.hu/files/ConfigContent.jpg" -->
 
 <!-- @section -->
 
 # Configuration translation basics
 
-<!-- @link, "url" : "http://hojtsy.hu/blog/2014-may-19/drupal-8-multilingual-tidbits-15-configuration-translation-basics", "text" : "I have understood that internationalization is no longer an option, but a must", "title" : "Configuration translation basics", "description" : "The biggest value for non-English and multilingual sites in Drupal 8 of the configuration changes is that now a common system is used to manage your site name, email text settings through to views, field settings, entity form displays, etc. We can introduce language and translation support in a way that modules will need to plan with. It is not just an optional contributed add-on but a core feature" -->
+<!-- @link, "url" : "http://hojtsy.hu/blog/2014-may-19/drupal-8-multilingual-tidbits-15-configuration-translation-basics", "text" : "I have understood that internationalization is no longer an option, but a must", "title" : "Configuration translation basics", "description" : "The biggest value for non-English and multilingual sites in Drupal 8 of the configuration changes is that now a common system is used to manage your site name, email text settings through to views, field settings, entity form displays, etc. We can introduce language and translation support in a way that modules will need to plan with. It is not just an optional contributed add-on but a core feature", "imageUrl" : "http://hojtsy.hu/files/Drupal8ConfigTranslationLanguageStructure.png" -->
 
 <!-- @section -->
 
 # Configuration translation development
 
-<!-- @link, "url" : "http://hojtsy.hu/blog/2014-may-26/drupal-8-multilingual-tidbits-16-configuration-translation-development", "text" : "I have seen how to mark pieces of configuration as translatable and how to provide translations for them", "title" : "Configuration translation development", "description" : "We'll cover how can developers integrate with configuration translation" -->
+<!-- @link, "url" : "http://hojtsy.hu/blog/2014-may-26/drupal-8-multilingual-tidbits-16-configuration-translation-development", "text" : "I have seen how to mark pieces of configuration as translatable and how to provide translations for them", "title" : "Configuration translation development", "description" : "We'll cover how can developers integrate with configuration translation", "imageUrl" : "http://hojtsy.hu/files/ConfigSchemaCheatSheet1.5.jpg" -->
 
 <!-- @section -->
 
 # Content translation basics
 
-<!-- @link, "url" : "http://hojtsy.hu/blog/2015-jan-27/drupal-8-multilingual-tidbits-17-content-translation-basics", "text" : "The difference between content and configuration became a bit clearer to me", "title" : "Content translation basics", "description" : "If you also need content translation support, all you need to do is to enable the Content translation module and have multiple languages configured. The same screen can be used to configure content translatability that you already used to configure content language defaults" -->
+<!-- @link, "url" : "http://hojtsy.hu/blog/2015-jan-27/drupal-8-multilingual-tidbits-17-content-translation-basics", "text" : "The difference between content and configuration became a bit clearer to me", "title" : "Content translation basics", "description" : "If you also need content translation support, all you need to do is to enable the Content translation module and have multiple languages configured. The same screen can be used to configure content translatability that you already used to configure content language defaults", "imageUrl" : "http://hojtsy.hu/files/Drupal8ContentFields.png" -->
 
 <!-- @section -->
 
 # Core content translation workflow
 
-<!-- @link, "url" : "http://hojtsy.hu/blog/2015-nov-10/drupal-8-multilingual-tidbits-18-core-content-translation-workflow", "text" : "I have learned how to translate content in a core-supported way", "title" : "Core content translation workflow", "description" : "What do we do to translate content?" -->
+<!-- @link, "url" : "http://hojtsy.hu/blog/2015-nov-10/drupal-8-multilingual-tidbits-18-core-content-translation-workflow", "text" : "I have learned how to translate content in a core-supported way", "title" : "Core content translation workflow", "description" : "What do we do to translate content?", "imageUrl" : "http://hojtsy.hu/files/Drupal8ContentAdminTranslations.png" -->
 
 <!-- @section -->
 
 # Content translation development
 
-<!-- @link, "url" : "http://hojtsy.hu/blog/2015-nov-11/drupal-8-multilingual-tidbits-19-content-translation-development", "text" : "I have understood that it became easier to work with translated content, even from the code", "title" : "Content translation development", "description" : "Drupal 8's entity API handles entities as full fledged objects. Translations of entities may be requested from this object and returned as a reusable entity object as well, which can be treated the same way as the original entity that we loaded" -->
+<!-- @link, "url" : "http://hojtsy.hu/blog/2015-nov-11/drupal-8-multilingual-tidbits-19-content-translation-development", "text" : "I have understood that it became easier to work with translated content, even from the code", "title" : "Content translation development", "description" : "Drupal 8's entity API handles entities as full fledged objects. Translations of entities may be requested from this object and returned as a reusable entity object as well, which can be treated the same way as the original entity that we loaded", "imageUrl" : "http://hojtsy.hu/files/gabor_photo_large.jpg" -->
 
 <!-- @section -->
 
 # Combination use cases with content and menus
 
-<!-- @link, "url" : "http://hojtsy.hu/blog/2015-nov-18/drupal-8-multilingual-tidbits-20-combination-use-cases-content-and-menus", "text" : "I can finally click translatable pieces together to have a smoothly-working multilingual site", "title" : "Combination use cases with content and menus", "description" : "Content shows up with some shipped interface elements, local configuration and content. Menus contain elements from code, content and configuration. It is good to know how these pieces relate so you can translate every piece and know the right place to do it" -->
+<!-- @link, "url" : "http://hojtsy.hu/blog/2015-nov-18/drupal-8-multilingual-tidbits-20-combination-use-cases-content-and-menus", "text" : "I can finally click translatable pieces together to have a smoothly-working multilingual site", "title" : "Combination use cases with content and menus", "description" : "Content shows up with some shipped interface elements, local configuration and content. Menus contain elements from code, content and configuration. It is good to know how these pieces relate so you can translate every piece and know the right place to do it", "imageUrl" : "http://hojtsy.hu/files/Drupal8MenuInSidebar.png" -->
