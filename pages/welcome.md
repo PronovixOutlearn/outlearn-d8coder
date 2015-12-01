@@ -11,5 +11,8 @@ We'll start with a Drupal 8 Preview slideshow maintained by core committers for 
 
 Good luck!
 
-CSÉCSY László<br />
+László CSÉCSY<br />
 Pronovix Drupal 8 Team
+
+![László Csécsy](http://pronovix.com/sites/default/files/boobaa_nagy.jpg)
+
