@@ -15,6 +15,7 @@ László CSÉCSY<br />
 Pronovix Drupal 8 Team
 
 <img src="http://pronovix.com/sites/default/files/styles/225x225/public/boobaa_nagy.jpg?itok=poD3U8xO" align="left">
+<br />
 
 **About the author:**
 
