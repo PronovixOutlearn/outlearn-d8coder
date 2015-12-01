@@ -16,7 +16,7 @@
 
 Non-working breadcrumbs will get consumed by birds. Working breadcrumbs are good for spiders, too.
 
-<!-- @link, "url" : "https://www.palantir.net/blog/d8ftw-breadcrumbs-work", "text" : "I have seen how effective the new breadcrumb system is", "title" : "D8FTW: Breadcrumbs That Work", "description" : "Breadcrumbs have long been the bane of every Drupal developer's existence. In simple cases, they work fine out of the box. Once you get even a little complex, though, they get quite unwieldy" -->
+<!-- @link, "url" : "https://www.palantir.net/blog/d8ftw-breadcrumbs-work", "text" : "I have seen how effective the new breadcrumb system is", "title" : "D8FTW: Breadcrumbs That Work", "description" : "Breadcrumbs have long been the bane of every Drupal developer's existence. In simple cases, they work fine out of the box. Once you get even a little complex, though, they get quite unwieldy", "imageUrl" : "https://www.palantir.net/sites/default/files/styles/blogpost-mainimage/public/blog/images/d8-ftw-template.png?itok=Gv5DvJkB" -->
 
 <!-- @section -->
 
