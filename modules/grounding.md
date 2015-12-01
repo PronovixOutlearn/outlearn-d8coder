@@ -40,7 +40,7 @@ Before getting deeper, you should read these articles and/or comments.
 
 # Getting more intimate with Drupal 8
 
-Now that you know some basics, let's start building your Drupal 8 house. Or carreer.
+Now that you know some basics, let's start building your Drupal 8 house. Or career.
 
 ## The structure of Drupal 8
 
