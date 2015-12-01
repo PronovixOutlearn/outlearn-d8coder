@@ -78,7 +78,7 @@ As there are a multitude of tools in our house, there should be an automated way
 
 ## A Peek at Traits in Drupal 8
 
-Although traits are not widely used in Drupal 8, you should now what to avoid about them.
+Although traits are not widely used in Drupal 8, you should know what to avoid about them.
 
 <!-- @link, "url" : "https://drupalize.me/blog/201503/dependency-injection-traits-drupal-8", "text" : "I will not use Traits for dependency injection", "title" : "A Peek at Traits in Drupal 8", "description" : "Have you ever gone to the grocery store and bought something that you already had in your pantry? Sometimes I forget to peek into the dark corners of my cupboard before heading out to the store" -->
 
