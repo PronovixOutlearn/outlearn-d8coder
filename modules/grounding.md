@@ -10,6 +10,10 @@
 }
 -->
 
+# Foreword
+
+Without proper foundation, every house will collapse. If you don't know some basics about Drupal 8, you may be able to knock together even a skyscraper of a really popular module, but there is a chance it will collapse under the pressure of bugs, or simply misinterpretations.
+
 <!-- @section -->
 
 # Digging up the treasure

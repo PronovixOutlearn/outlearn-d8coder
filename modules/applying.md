@@ -10,6 +10,10 @@
 }
 -->
 
+# Foreword
+
+Let's start using that knowledge you have collected, built and learned. We know Drupal is quite a complex system, and this complexity has even increased with the new release, but bear with us for reading about some details.
+
 <!-- @section -->
 
 # Breadcrumbs That Work
