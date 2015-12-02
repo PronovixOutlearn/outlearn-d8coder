@@ -27,25 +27,17 @@ The best teacher of multilingual stuff is the leader of the Drupal 8 Multilingua
 
 <!-- @link, "url" : "http://hojtsy.hu/blog/2013-jun-12/drupal-8-multilingual-tidbits-2-more-core-modules", "text" : "I have learned that I can achieve more using less modules", "title" : "More core modules", "description" : "Drupal 8 has more core modules handling language related features, yet less requirement for contributed modules to be installed for the most important tasks" -->
 
-<!-- @section -->
-
 # Simple language setup, optional English
 
 <!-- @link, "url" : "http://hojtsy.hu/blog/2013-jun-17/drupal-8-multilingual-tidbits-3-simple-language-setup-optional-english", "text" : "I have understood that English became optional", "title" : "Simple language setup, optional English", "description" : "This part will be about the simple language setup features provided by Language module, which is the base for every other language feature" -->
-
-<!-- @section -->
 
 # Highly flexible detection options
 
 <!-- @link, "url" : "http://hojtsy.hu/blog/2013-jun-19/drupal-8-multilingual-tidbits-4-highly-flexible-detection-options", "text" : "I have seen how flexible and convenient the language detection is", "title" : "Highly flexible detection options", "description" : "The Drupal 8 language detection and selection options are located the same place they were in Drupal 7 but almost all options got some improvement" -->
 
-<!-- @section -->
-
 # Almost limitless language assignment
 
 <!-- @link, "url" : "http://hojtsy.hu/blog/2013-jun-21/drupal-8-multilingual-tidbits-5-almost-limitless-language-assignment", "text" : "I have learned that almost everything knows its own language by now", "title" : "Almost limitless language assignment", "description" : "In Drupal 8, one of our most important goals was to make everything know its language as far and wide as possible" -->
-
-<!-- @section -->
 
 # Easier right to left styling
 
@@ -75,19 +67,13 @@ The best teacher of multilingual stuff is the leader of the Drupal 8 Multilingua
 
 <!-- @link, "url" : "http://hojtsy.hu/blog/2013-jul-24/drupal-8-multilingual-tidbits-10-context-specific-text-translation-apis", "text" : "I have seen some parts of the wood of the translation APIs", "title" : "Context specific text translation APIs", "description" : "Prior Drupal versions had the rule that you should use t() and format_plural() with little exceptions. Drupal 8 has much more complexity in this area, which may be a bliss or a curse depending on how you look at it" -->
 
-<!-- @section -->
-
 # String customizations tracked
 
 <!-- @link, "url" : "http://hojtsy.hu/blog/2013-aug-13/drupal-8-multilingual-tidbits-11-string-customizations-tracked", "text" : "I have learned that my custom translations are kept", "title" : "String customizations tracked", "description" : "We know that not everybody is happy with the community translations proper. So another key feature we included in Drupal 8 is custom translation tracking", "imageUrl" : "http://hojtsy.hu/files/Drupal8StringExportOptions.png" -->
 
-<!-- @section -->
-
 # English can now be translated to
 
 <!-- @link, "url" : "http://hojtsy.hu/blog/2013-aug-20/drupal-8-multilingual-tidbits-12-english-can-now-be-translated", "text" : "I have understood that I do not need hacks to have custom English strings", "title" : "English can now be translated to", "description" : "By default, if you have English configured, it is not available as a translation target. However, you are only one checkbox away from enabling that feature", "imageUrl" : "http://hojtsy.hu/files/Drupal8EditEnglish_0.png" -->
-
-<!-- @section -->
 
 # Much improved software translation UI
 
@@ -105,8 +91,6 @@ The best teacher of multilingual stuff is the leader of the Drupal 8 Multilingua
 
 <!-- @link, "url" : "http://hojtsy.hu/blog/2014-may-19/drupal-8-multilingual-tidbits-15-configuration-translation-basics", "text" : "I have understood that internationalization is no longer an option, but a must", "title" : "Configuration translation basics", "description" : "The biggest value for non-English and multilingual sites in Drupal 8 of the configuration changes is that now a common system is used to manage your site name, email text settings through to views, field settings, entity form displays, etc. We can introduce language and translation support in a way that modules will need to plan with. It is not just an optional contributed add-on but a core feature", "imageUrl" : "http://hojtsy.hu/files/Drupal8ConfigTranslationLanguageStructure.png" -->
 
-<!-- @section -->
-
 # Configuration translation development
 
 <!-- @link, "url" : "http://hojtsy.hu/blog/2014-may-26/drupal-8-multilingual-tidbits-16-configuration-translation-development", "text" : "I have seen how to mark pieces of configuration as translatable and how to provide translations for them", "title" : "Configuration translation development", "description" : "We'll cover how can developers integrate with configuration translation", "imageUrl" : "http://hojtsy.hu/files/ConfigSchemaCheatSheet1.5.jpg" -->
@@ -117,13 +101,9 @@ The best teacher of multilingual stuff is the leader of the Drupal 8 Multilingua
 
 <!-- @link, "url" : "http://hojtsy.hu/blog/2015-jan-27/drupal-8-multilingual-tidbits-17-content-translation-basics", "text" : "The difference between content and configuration became a bit clearer to me", "title" : "Content translation basics", "description" : "If you also need content translation support, all you need to do is to enable the Content translation module and have multiple languages configured. The same screen can be used to configure content translatability that you already used to configure content language defaults", "imageUrl" : "http://hojtsy.hu/files/Drupal8ContentFields.png" -->
 
-<!-- @section -->
-
 # Core content translation workflow
 
 <!-- @link, "url" : "http://hojtsy.hu/blog/2015-nov-10/drupal-8-multilingual-tidbits-18-core-content-translation-workflow", "text" : "I have learned how to translate content in a core-supported way", "title" : "Core content translation workflow", "description" : "What do we do to translate content?", "imageUrl" : "http://hojtsy.hu/files/Drupal8ContentAdminTranslations.png" -->
-
-<!-- @section -->
 
 # Content translation development
 
