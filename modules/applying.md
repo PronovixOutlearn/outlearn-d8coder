@@ -129,7 +129,7 @@ A good Drupal coder should have a starting point for migration-related documenta
 
 Configuration management has some roots in the Drupal 7 era.
 
-<!-- @link, "url" : "http://nuvole.org/blog/2014/jun/06/configuration-management-drupal-7-drupal-8", "text" : "I have seen the relation between CMI (in core) and Features (as a contrib module)", "title" : "Configuration Management: Drupal 7 to Drupal 8", "description" : "Nuvole gave two talks about the current status of Configuration Management in Drupal 8 at European Drupal events in 2014. Developers attending the events were mostly interested in how the future Drupal 8 Configuration Management capabilities will compare to Drupal 7, with and without the Features module", "http://nuvole.org/profiles/nuvole/themes/cloudy/images/users/user-andrea.png" -->
+<!-- @link, "url" : "http://nuvole.org/blog/2014/jun/06/configuration-management-drupal-7-drupal-8", "text" : "I have seen the relation between CMI (in core) and Features (as a contrib module)", "title" : "Configuration Management: Drupal 7 to Drupal 8", "description" : "Nuvole gave two talks about the current status of Configuration Management in Drupal 8 at European Drupal events in 2014. Developers attending the events were mostly interested in how the future Drupal 8 Configuration Management capabilities will compare to Drupal 7, with and without the Features module", "imageUrl" : "http://nuvole.org/profiles/nuvole/themes/cloudy/images/users/user-andrea.png" -->
 
 Forms may have their initial configuration values in `.settings.yml` files.
 
