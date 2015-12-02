@@ -69,7 +69,7 @@ Form alteration has not changed too much since Drupal 7. You should add a `hook_
 
 We all know AJAX can make our lives nicer, although a bit more complicated in some cases. And no, it's not about the football club nor the cleaner.
 
-<!-- @link, "url": "http://www.sitepoint.com/using-ajax-forms-drupal-8/", "text" : "I have learned that AJAXifying forms got even more powerful", "title" : "Using AJAX forms in Drupal 8", "description" : "A clean way of using the Drupal 8 Ajax API without writing a single line of JavaScript code" -->
+<!-- @link, "url": "http://www.sitepoint.com/using-ajax-forms-drupal-8/", "text" : "I have learned that AJAXifying forms got even more powerful", "title" : "Using AJAX forms in Drupal 8", "description" : "A clean way of using the Drupal 8 Ajax API without writing a single line of JavaScript code", "imageUrl" : "http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2014/07/1404316515drupal8wide-1024x332.png" -->
 
 <!-- @section -->
 
@@ -105,11 +105,11 @@ Okay, we couldn't find the description of the code Daniel Sipos has published, b
 
 Sending a mail is pretty much the same, although we're using a service now.
 
-<!-- @link, "url" : "http://code.tutsplus.com/tutorials/using-and-extending-the-drupal-8-mail-api-part-1--cms-23419", "text" : "I have learned the basics of mailing", "title" : "Using and Extending the Drupal 8 Mail API, Part 1: Sending and Altering", "description" : "In the first part we will create a custom email template that gets used for sending emails to the current user when s/he saves a new Article node. Additionally, we will see how others can alter that template in order to allow for HTML rendering of the email body instead of the default plain text" -->
+<!-- @link, "url" : "http://code.tutsplus.com/tutorials/using-and-extending-the-drupal-8-mail-api-part-1--cms-23419", "text" : "I have learned the basics of mailing", "title" : "Using and Extending the Drupal 8 Mail API, Part 1: Sending and Altering", "description" : "In the first part we will create a custom email template that gets used for sending emails to the current user when s/he saves a new Article node. Additionally, we will see how others can alter that template in order to allow for HTML rendering of the email body instead of the default plain text", "imageUrl" : "https://thumbsplus.tutsplus.com/uploads/users/34/posts/23419/preview_image/drupal.png" -->
 
 We can even replace the Drupal mail manager service with one that uses a 3rd-party service. Confusing, isn't it?
 
-<!-- @link, "url" : "http://code.tutsplus.com/tutorials/using-and-extending-the-drupal-8-mail-api-part-2--cms-23484", "text" : "I have seen how to use an external service for sending mail", "title" : "Using and Extending the Drupal 8 Mail API, Part 2: Using an external service", "description" : "Look at how we can use the Mail API to extend the default behaviour. The purpose is to use an external service as a means for email delivery" -->
+<!-- @link, "url" : "http://code.tutsplus.com/tutorials/using-and-extending-the-drupal-8-mail-api-part-2--cms-23484", "text" : "I have seen how to use an external service for sending mail", "title" : "Using and Extending the Drupal 8 Mail API, Part 2: Using an external service", "description" : "Look at how we can use the Mail API to extend the default behaviour. The purpose is to use an external service as a means for email delivery", "imageUrl" : "https://thumbsplus.tutsplus.com/uploads/users/34/posts/23419/preview_image/drupal.png" -->
 
 <!-- @section -->
 
@@ -117,11 +117,11 @@ We can even replace the Drupal mail manager service with one that uses a 3rd-par
 
 Two years into the development of Drupal 8, Dries Buytaert announced that Drupal 8.0 might ship without an upgrade path – that's how migration comes into the picture.
 
-<!-- @link, "url" : "https://drupalwatchdog.com/volume-4/issue-1/migrate-overview", "text" : "I have understood there are no `hook_update_N()` implementations any longer for major version upgrades", "title" : "Migrate Overview", "description" : "This unorthodox decision was made to support substantial improvements in Drupal’s major version upgrade process by introducing a robust new sub-system based on the popular contributed modules Migrate and Migrate D2D" -->
+<!-- @link, "url" : "https://drupalwatchdog.com/volume-4/issue-1/migrate-overview", "text" : "I have understood there are no `hook_update_N()` implementations any longer for major version upgrades", "title" : "Migrate Overview", "description" : "This unorthodox decision was made to support substantial improvements in Drupal’s major version upgrade process by introducing a robust new sub-system based on the popular contributed modules Migrate and Migrate D2D", "imageUrl" : "https://drupalwatchdog.com/sites/default/files/images/web/4.1-migrateoverview.jpg" -->
 
 A good Drupal coder should have a starting point for migration-related documentation, too.
 
-<!-- @link, "url" : "https://drupalwatchdog.com/volume-4/issue-1/migrate-api", "text" : "I have learned the core of the Migration API", "title" : "Migrate API: Technically speaking", "description" : "The migrate API works with plugins and stores the configuration for those plugins in a configuration entity. There are a number of plugin types offered: source, process, and destination are the most important" -->
+<!-- @link, "url" : "https://drupalwatchdog.com/volume-4/issue-1/migrate-api", "text" : "I have learned the core of the Migration API", "title" : "Migrate API: Technically speaking", "description" : "The migrate API works with plugins and stores the configuration for those plugins in a configuration entity. There are a number of plugin types offered: source, process, and destination are the most important", "imageUrl" : "https://drupalwatchdog.com/sites/default/files/images/web/4.1-migrate-api.jpg" -->
 
 <!-- @section -->
 
@@ -129,15 +129,15 @@ A good Drupal coder should have a starting point for migration-related documenta
 
 Configuration management has some roots in the Drupal 7 era.
 
-<!-- @link, "url" : "http://nuvole.org/blog/2014/jun/06/configuration-management-drupal-7-drupal-8", "text" : "I have seen the relation between CMI (in core) and Features (as a contrib module)", "title" : "Configuration Management: Drupal 7 to Drupal 8", "description" : "Nuvole gave two talks about the current status of Configuration Management in Drupal 8 at European Drupal events in 2014. Developers attending the events were mostly interested in how the future Drupal 8 Configuration Management capabilities will compare to Drupal 7, with and without the Features module" -->
+<!-- @link, "url" : "http://nuvole.org/blog/2014/jun/06/configuration-management-drupal-7-drupal-8", "text" : "I have seen the relation between CMI (in core) and Features (as a contrib module)", "title" : "Configuration Management: Drupal 7 to Drupal 8", "description" : "Nuvole gave two talks about the current status of Configuration Management in Drupal 8 at European Drupal events in 2014. Developers attending the events were mostly interested in how the future Drupal 8 Configuration Management capabilities will compare to Drupal 7, with and without the Features module", "http://nuvole.org/profiles/nuvole/themes/cloudy/images/users/user-andrea.png" -->
 
 Forms may have their initial configuration values in `.settings.yml` files.
 
-<!-- @link, "url" : "https://docs.acquia.com/articles/drupal-8-configuration-forms-and-cmi", "text" : "I have understood the basics of the Config Management", "title" : "Configuration forms and CMI", "description" : "This lesson introduces both a special type of form called a configuration form and the Configuration Management Initiative (CMI), which describes the effort made to gather the multiple sources of configuration information and functions in Drupal 7 into a single system in Drupal 8" -->
+<!-- @link, "url" : "https://docs.acquia.com/articles/drupal-8-configuration-forms-and-cmi", "text" : "I have understood the basics of the Config Management", "title" : "Configuration forms and CMI", "description" : "This lesson introduces both a special type of form called a configuration form and the Configuration Management Initiative (CMI), which describes the effort made to gather the multiple sources of configuration information and functions in Drupal 7 into a single system in Drupal 8", "imageUrl" : "https://www.acquia.com/sites/default/files/d8ultimateguide_301x177.jpg" -->
 
 Configuration has its own entities.
 
-<!-- @link, "url" : "https://docs.acquia.com/articles/drupal-8-configuration-and-config-object", "text" : "I have learned about config entities", "title" : "Configuration and the config object", "description" : "Drupal 8 provides a Config object that we can use to interact with the configuration. Some classes already have it available through dependency injection" -->
+<!-- @link, "url" : "https://docs.acquia.com/articles/drupal-8-configuration-and-config-object", "text" : "I have learned about config entities", "title" : "Configuration and the config object", "description" : "Drupal 8 provides a Config object that we can use to interact with the configuration. Some classes already have it available through dependency injection", "imageUrl" : "https://www.acquia.com/sites/default/files/d8ultimateguide_301x177.jpg" -->
 
 Did we mention you should bookmark some resources, like this one?
 
@@ -145,11 +145,11 @@ Did we mention you should bookmark some resources, like this one?
 
 You can add your own stuff to a configuration entity's form.
 
-<!-- @link, "url" : "http://www.webomelette.com/drupal-8-custom-data-configuration-entities-using-thirdpartysettingsinterface", "text" : "I have seen how to properly hook into the forms of config entities (without hooks, actually)", "title" : "Custom data on configuration entites using the ThirdPartySettingsInterface", "description" : "We are going to look at how to use the ThirdPartySettingsInterface to add some extra data to existing configuration entities. For example, if you ever need to store some config together with a node type or a taxonomy vocabulary, there is a great way to do so using this interface" -->
+<!-- @link, "url" : "http://www.webomelette.com/drupal-8-custom-data-configuration-entities-using-thirdpartysettingsinterface", "text" : "I have seen how to properly hook into the forms of config entities (without hooks, actually)", "title" : "Custom data on configuration entites using the ThirdPartySettingsInterface", "description" : "We are going to look at how to use the ThirdPartySettingsInterface to add some extra data to existing configuration entities. For example, if you ever need to store some config together with a node type or a taxonomy vocabulary, there is a great way to do so using this interface", "imageUrl" : "http://www.webomelette.com/sites/default/files/pictures/picture-1-1439662760.jpg" -->
 
 With the advent of CMI, all Drupal 8 developers should know the basics of the core-supported configuration workflow.
 
-<!-- @link, "url" : "https://drupalwatchdog.com/volume-5/issue-2/configuration-workflow", "text" : "I have learned the basics of the config workflow", "title" : "Configuration workflow", "description" : "Large website projects involving multiple people in different roles face special challenges. The work needs to be coordinated and scheduled in such a way as to allow for parallel development of different parts of the project on different systems" -->
+<!-- @link, "url" : "https://drupalwatchdog.com/volume-5/issue-2/configuration-workflow", "text" : "I have learned the basics of the config workflow", "title" : "Configuration workflow", "description" : "Large website projects involving multiple people in different roles face special challenges. The work needs to be coordinated and scheduled in such a way as to allow for parallel development of different parts of the project on different systems", "imageUrl" : "https://drupalwatchdog.com/sites/default/files/images/web/DW5.02-ConfigWorkflowGitStagingConfig.png" -->
 
 Configuration workflow (ie. how to export config, move it around with git, import it on the other instance, etc.) will be covered later.
 
@@ -161,13 +161,13 @@ Configuration workflow (ie. how to export config, move it around with git, impor
 
 Learning the Field API should start with the easiest things like custom fields and formatters.
 
-<!-- @link, "url": "http://capgemini.github.io/drupal/writing-custom-fields-in-drupal-8/", "text" : "I have written at least one custom formatter", "title" : "Writing custom fields in Drupal 8", "description" : "Fields are the data entry points to a web application. Usually, they provide HTML elements and may be responsible for any manipulation of data before it goes into and comes out of the application" -->
+<!-- @link, "url": "http://capgemini.github.io/drupal/writing-custom-fields-in-drupal-8/", "text" : "I have written at least one custom formatter", "title" : "Writing custom fields in Drupal 8", "description" : "Fields are the data entry points to a web application. Usually, they provide HTML elements and may be responsible for any manipulation of data before it goes into and comes out of the application", "imageUrl" : "http://capgemini.github.io/images/FieldsDrupalCampLondon2015-005.jpg" -->
 
 ## Creating pseudo-fields in Drupal 8
 
 The second step in learning the Field API is working with pseudo fields.
 
-<!-- @link, "url": "http://www.webomelette.com/creating-pseudo-fields-drupal-8", "text" : "I have understood how to create a custom pseudo field", "title" : "Creating pseudo-fields in Drupal 8", "description" : "Pseudo-fields are simple display fields that you can control from the display settings of a particular entity type" -->
+<!-- @link, "url": "http://www.webomelette.com/creating-pseudo-fields-drupal-8", "text" : "I have understood how to create a custom pseudo field", "title" : "Creating pseudo-fields in Drupal 8", "description" : "Pseudo-fields are simple display fields that you can control from the display settings of a particular entity type", "imageUrl" : "http://www.webomelette.com/sites/default/files/pictures/picture-1-1439662760.jpg" -->
 
 <!-- @section -->
 
@@ -197,7 +197,7 @@ Yeah, you read it right: you should stop providing HTML as the return values of 
 
 A lot of hooks became obsolete as Drupal 8 has switched to Symfony and its event dispatcher approach.
 
-<!-- @link, "url": "http://www.sitepoint.com/drupal-8-hooks-symfony-event-dispatcher/", "text" : "I have seen how some hooks got replaced by Symfony events", "title" : "Drupal 8 Hooks and the Symfony Event Dispatcher", "description" : "The both loved and hated hook system is getting slowly replaced. Plugins and annotations are taking away much of the need for info hooks and the Symfony Event Dispatcher component is replacing some of the invoked hooks" -->
+<!-- @link, "url": "http://www.sitepoint.com/drupal-8-hooks-symfony-event-dispatcher/", "text" : "I have seen how some hooks got replaced by Symfony events", "title" : "Drupal 8 Hooks and the Symfony Event Dispatcher", "description" : "The both loved and hated hook system is getting slowly replaced. Plugins and annotations are taking away much of the need for info hooks and the Symfony Event Dispatcher component is replacing some of the invoked hooks", "imageUrl" : "http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2014/10/1412889376drupal8wide.png" -->
 
 <!-- @section -->
 
@@ -207,7 +207,7 @@ A lot of hooks became obsolete as Drupal 8 has switched to Symfony and its event
 
 The EntityFieldQuery became more sophisticated than ever.
 
-<!-- @link, "url": "https://docs.acquia.com/articles/drupal-8-entity-queries-and-loading-entities", "text" : "I have replaced my EFQ autocompletion with this new entity query in my editor", "title" : "Entity queries and loading entities", "description" : "Querying entities has changed since Drupal 7 because EntityFieldQuery has been replaced by the core service called entity.query which can instantiate a query object for a specified entity type" -->
+<!-- @link, "url": "https://docs.acquia.com/articles/drupal-8-entity-queries-and-loading-entities", "text" : "I have replaced my EFQ autocompletion with this new entity query in my editor", "title" : "Entity queries and loading entities", "description" : "Querying entities has changed since Drupal 7 because EntityFieldQuery has been replaced by the core service called entity.query which can instantiate a query object for a specified entity type", "imageUrl" : "https://www.acquia.com/sites/default/files/d8ultimateguide_301x177.jpg" -->
 
 <!-- @section -->
 
@@ -217,10 +217,10 @@ The EntityFieldQuery became more sophisticated than ever.
 
 That's correct: Views became part of core! You should learn how to code around custom Views fields.
 
-<!-- @link, "url": "http://www.webomelette.com/creating-custom-views-field-drupal-8", "text" : "I have learned how easy it is to create a custom Views field", "title" : "Creating a custom Views field in Drupal 8", "description" : "At the end of this tutorial, you will be able to add a new field to any node based View which will flag (by displaying a specific message) the nodes of a particular type (configurable in the field configuration). Although I will use nodes, you can use this example to create custom fields for other entities as well" -->
+<!-- @link, "url": "http://www.webomelette.com/creating-custom-views-field-drupal-8", "text" : "I have learned how easy it is to create a custom Views field", "title" : "Creating a custom Views field in Drupal 8", "description" : "At the end of this tutorial, you will be able to add a new field to any node based View which will flag (by displaying a specific message) the nodes of a particular type (configurable in the field configuration). Although I will use nodes, you can use this example to create custom fields for other entities as well", "imageUrl" : "http://www.webomelette.com/sites/default/files/pictures/picture-1-1439662760.jpg" -->
 
 ## Creating a custom Views filter in Drupal 8
 
 So you should learn how to code around custom Views filters.
 
-<!-- @link, "url": "http://www.webomelette.com/creating-custom-views-filter-drupal-8", "text" : "I have learned how easy it is to create a custom Views filter", "title" : "Creating a custom Views filter in Drupal 8", "description" : "How can we create a custom filter you can then add to the View in the UI and influence the results based on that" -->
+<!-- @link, "url": "http://www.webomelette.com/creating-custom-views-filter-drupal-8", "text" : "I have learned how easy it is to create a custom Views filter", "title" : "Creating a custom Views filter in Drupal 8", "description" : "How can we create a custom filter you can then add to the View in the UI and influence the results based on that", "imageUrl" : "http://www.webomelette.com/sites/default/files/pictures/picture-1-1439662760.jpg" -->
