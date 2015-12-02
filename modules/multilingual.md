@@ -19,41 +19,41 @@ The best teacher of multilingual stuff is the leader of the Drupal 8 Multilingua
 
 # Language first
 
-<!-- @link, "url" : "http://hojtsy.hu/blog/2013-jun-11/drupal-8-multilingual-tidbits-1-language-first", "text" : "I have seen that I can use my own language right away from the installer, yay!", "title" : "Language first", "description" : "Since it's inception, the heroic efforts of people on the initiative resulted in hundreds of issues resolved but there are always more to perfect. We have made huge advances in terms of multilingual support in Drupal 8 thanks to all these changes and you can still help to make it perfect" -->
+<!-- @link, "url" : "http://hojtsy.hu/blog/2013-jun-11/drupal-8-multilingual-tidbits-1-language-first", "text" : "I have seen that I can use my own language right away from the installer, yay!", "title" : "Language first", "description" : "Since it's inception, the heroic efforts of people on the initiative resulted in hundreds of issues resolved but there are always more to perfect. We have made huge advances in terms of multilingual support in Drupal 8 thanks to all these changes and you can still help to make it perfect", "imageUrl" : "http://hojtsy.hu/files/Drupal8Installer.png" -->
 
 <!-- @section -->
 
 # More core modules
 
-<!-- @link, "url" : "http://hojtsy.hu/blog/2013-jun-12/drupal-8-multilingual-tidbits-2-more-core-modules", "text" : "I have learned that I can achieve more using less modules", "title" : "More core modules", "description" : "Drupal 8 has more core modules handling language related features, yet less requirement for contributed modules to be installed for the most important tasks" -->
+<!-- @link, "url" : "http://hojtsy.hu/blog/2013-jun-12/drupal-8-multilingual-tidbits-2-more-core-modules", "text" : "I have learned that I can achieve more using less modules", "title" : "More core modules", "description" : "Drupal 8 has more core modules handling language related features, yet less requirement for contributed modules to be installed for the most important tasks", "imageUrl" : "http://hojtsy.hu/files/Drupal8MultilingualSystem.png" -->
 
 # Simple language setup, optional English
 
-<!-- @link, "url" : "http://hojtsy.hu/blog/2013-jun-17/drupal-8-multilingual-tidbits-3-simple-language-setup-optional-english", "text" : "I have understood that English became optional", "title" : "Simple language setup, optional English", "description" : "This part will be about the simple language setup features provided by Language module, which is the base for every other language feature" -->
+<!-- @link, "url" : "http://hojtsy.hu/blog/2013-jun-17/drupal-8-multilingual-tidbits-3-simple-language-setup-optional-english", "text" : "I have understood that English became optional", "title" : "Simple language setup, optional English", "description" : "This part will be about the simple language setup features provided by Language module, which is the base for every other language feature", "imageUrl" : "http://hojtsy.hu/files/Drupal8LanguagesList_0.png" -->
 
 # Highly flexible detection options
 
-<!-- @link, "url" : "http://hojtsy.hu/blog/2013-jun-19/drupal-8-multilingual-tidbits-4-highly-flexible-detection-options", "text" : "I have seen how flexible and convenient the language detection is", "title" : "Highly flexible detection options", "description" : "The Drupal 8 language detection and selection options are located the same place they were in Drupal 7 but almost all options got some improvement" -->
+<!-- @link, "url" : "http://hojtsy.hu/blog/2013-jun-19/drupal-8-multilingual-tidbits-4-highly-flexible-detection-options", "text" : "I have seen how flexible and convenient the language detection is", "title" : "Highly flexible detection options", "description" : "The Drupal 8 language detection and selection options are located the same place they were in Drupal 7 but almost all options got some improvement", "imageUrl" : "http://hojtsy.hu/files/Drupal8LanguageDetectionList_0.png" -->
 
 # Almost limitless language assignment
 
-<!-- @link, "url" : "http://hojtsy.hu/blog/2013-jun-21/drupal-8-multilingual-tidbits-5-almost-limitless-language-assignment", "text" : "I have learned that almost everything knows its own language by now", "title" : "Almost limitless language assignment", "description" : "In Drupal 8, one of our most important goals was to make everything know its language as far and wide as possible" -->
+<!-- @link, "url" : "http://hojtsy.hu/blog/2013-jun-21/drupal-8-multilingual-tidbits-5-almost-limitless-language-assignment", "text" : "I have learned that almost everything knows its own language by now", "title" : "Almost limitless language assignment", "description" : "In Drupal 8, one of our most important goals was to make everything know its language as far and wide as possible", "imageUrl" : "http://hojtsy.hu/files/Drupal8ContentLanguageConfig.png" -->
 
 # Easier right to left styling
 
-<!-- @link, "url" : "http://hojtsy.hu/blog/2013-jul-02/drupal-8-multilingual-tidbits-6-easier-right-left-styling", "text" : "I have understood that my site can easily be bidirectional", "title" : "Easier right to left styling", "description" : "One of the strongly supported language features of Drupal is right to left (RTL) language support. For some Drupal core versions, introducing an RTL language on the site is easy" -->
+<!-- @link, "url" : "http://hojtsy.hu/blog/2013-jul-02/drupal-8-multilingual-tidbits-6-easier-right-left-styling", "text" : "I have understood that my site can easily be bidirectional", "title" : "Easier right to left styling", "description" : "One of the strongly supported language features of Drupal is right to left (RTL) language support. For some Drupal core versions, introducing an RTL language on the site is easy", "imageUrl" : "http://hojtsy.hu/files/Drupal8InstallerRTL_0.png" -->
 
 <!-- @section -->
 
 # Blocks and views
 
-<!-- @link, "url" : "http://hojtsy.hu/blog/2013-jul-09/drupal-8-multilingual-tidbits-7-blocks-and-views", "text" : "I have seen that blocks' and views' language-awareness has increased", "title" : "Blocks and views", "description" : "Once you have detailed language information on content, configuration, etc, which is now widely possible in Drupal 8, you can use this data to pull out content for specific languages" -->
+<!-- @link, "url" : "http://hojtsy.hu/blog/2013-jul-09/drupal-8-multilingual-tidbits-7-blocks-and-views", "text" : "I have seen that blocks' and views' language-awareness has increased", "title" : "Blocks and views", "description" : "Once you have detailed language information on content, configuration, etc, which is now widely possible in Drupal 8, you can use this data to pull out content for specific languages", "imageUrl" : "http://hojtsy.hu/files/Drupal8ViewsLanguageFilter_0.png" -->
 
 <!-- @section -->
 
 # Transliteration
 
-<!-- @link, "url" : "http://hojtsy.hu/blog/2013-jul-17/drupal-8-multilingual-tidbits-8-transliteration", "text" : "I have learned how convenient is the builtin transliteration system", "title" : "Transliteration", "description" : "One thing that was not yet covered is built-in transliteration support. Yes, you read that right. Drupal 8 includes a powerful backend system for transliteration and it even uses it for machine name generation on the frontend" -->
+<!-- @link, "url" : "http://hojtsy.hu/blog/2013-jul-17/drupal-8-multilingual-tidbits-8-transliteration", "text" : "I have learned how convenient is the builtin transliteration system", "title" : "Transliteration", "description" : "One thing that was not yet covered is built-in transliteration support. Yes, you read that right. Drupal 8 includes a powerful backend system for transliteration and it even uses it for machine name generation on the frontend", "imageUrl" : "http://hojtsy.hu/files/Drupal8TransliterationHu.png" -->
 
 <!-- @section -->
 
@@ -65,7 +65,7 @@ The best teacher of multilingual stuff is the leader of the Drupal 8 Multilingua
 
 # Context specific text translation APIs
 
-<!-- @link, "url" : "http://hojtsy.hu/blog/2013-jul-24/drupal-8-multilingual-tidbits-10-context-specific-text-translation-apis", "text" : "I have seen some parts of the wood of the translation APIs", "title" : "Context specific text translation APIs", "description" : "Prior Drupal versions had the rule that you should use t() and format_plural() with little exceptions. Drupal 8 has much more complexity in this area, which may be a bliss or a curse depending on how you look at it" -->
+<!-- @link, "url" : "http://hojtsy.hu/blog/2013-jul-24/drupal-8-multilingual-tidbits-10-context-specific-text-translation-apis", "text" : "I have seen some parts of the wood of the translation APIs", "title" : "Context specific text translation APIs", "description" : "Prior Drupal versions had the rule that you should use t() and format_plural() with little exceptions. Drupal 8 has much more complexity in this area, which may be a bliss or a curse depending on how you look at it", "imageUrl" : "http://hojtsy.hu/files/Drupal7MenuToDrupal8Figure.png" -->
 
 # String customizations tracked
 
