@@ -50,6 +50,8 @@ It is always a good idea to learn from others watching how they use their tools.
 
 <!-- @link, "url" : "https://dev.acquia.com/blog/how-i-learned-drupal-8", "text" : "I have learned about some useful resources and tools", "title" : "How I learned Drupal 8", "description" : "In this post, Alejandro Garza will share his experience on trying to learn Drupal 8 during its alpha stage, talk about some of the challenges of keeping up with the ongoing changes while trying to learn it, and end with some tips and resources which proved useful for him" -->
 
+<!-- @task, "text" : "Update your working environment and make sure it really helps you in coding with autocompletion, class exploration, PSR-4 compliant code navigation, etc." -->
+
 <!-- @section -->
 
 # Getting more intimate with Drupal 8
@@ -114,10 +116,14 @@ See how the system becomes aware of those deeply-buried plugin classes.
 
 <!-- @link, "url" : "https://www.drupal.org/node/1882526", "text" : "I have learned how my code is driven by my comments", "title" : "Annotations-based plugins", "description" : "Most of the plugins in Drupal 8 will use annotations to register themselves and describe their metadata" -->
 
+<!-- @task, "text" : "Navigate around the source code of core to be familiar with the structure and all those new things like service container, routing, dependency injection, plugins and annotations." -->
+
 <!-- @section -->
 
 # Bored of typing that much code all the day?
 
 Type tirelessly around the clock, you should not, Yoda said, as there's a new hope: a tool that helps in scaffolding.
 
-<!-- @link, "url" : "http://drupalconsole.com/", "text" : "I have added Drupal Console to my toolchain", "title" : "Drupal Console", "description" : "The Drupal Console is a suite of tools that you run on a command line interface (CLI) to generate boilerplate code and interact with a Drupal 8 installation" -->
+<!-- @link, "url" : "http://drupalconsole.com/", "text" : "I have read about this new scaffolding tool", "title" : "Drupal Console", "description" : "The Drupal Console is a suite of tools that you run on a command line interface (CLI) to generate boilerplate code and interact with a Drupal 8 installation" -->
+
+<!-- @task, "text" : "Add Drupal Console to your toolchain." -->
