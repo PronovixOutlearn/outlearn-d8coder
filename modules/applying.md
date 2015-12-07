@@ -22,6 +22,8 @@ Non-working breadcrumbs will get consumed by birds. Working breadcrumbs are good
 
 <!-- @link, "url" : "https://www.palantir.net/blog/d8ftw-breadcrumbs-work", "text" : "I have seen how effective the new breadcrumb system is", "title" : "D8FTW: Breadcrumbs That Work", "description" : "Breadcrumbs have long been the bane of every Drupal developer's existence. In simple cases, they work fine out of the box. Once you get even a little complex, though, they get quite unwieldy", "imageUrl" : "https://www.palantir.net/sites/default/files/styles/blogpost-mainimage/public/blog/images/d8-ftw-template.png?itok=Gv5DvJkB" -->
 
+<!-- @task, "text" : "Add a custom breadcrumb to your Hello World! module." -->
+
 <!-- @section -->
 
 # Custom page with menu item and custom access check
@@ -31,6 +33,8 @@ Adding a custom access checker for a page needs a bit more work now.
 <!-- TODO: Publish this as a blogpost on pronovix.com and reuse the content from there -->
 <!-- @link, "url" : "https://github.com/boobaa/d7to8/blob/master/access.md", "text" : "I have learned how to create a custom access check service", "title" : "Custom access control to a page", "description" : "Display the user's name and email - but every user should be able to access only his/her own page" -->
 
+<!-- @task, "text" : "Add a custom access check to your Hello World! module." -->
+
 <!-- @section -->
 
 # Forms and blocks
@@ -39,13 +43,17 @@ Adding a custom access checker for a page needs a bit more work now.
 
 This is the "Hello other side of the World" example.
 
-<!-- @link, "url" : "http://www.trellon.com/content/blog/how-create-custom-form-in-drupal-8", "text" : "I have created my first Drupal 8 form", "title" : "Creating Custom Forms in Drupal 8", "description" : "A gentle introduction to creating forms in Drupal 8, highlighting the differences and similarities to how you would do this in previous versions of the platform" -->
+<!-- @link, "url" : "http://www.trellon.com/content/blog/how-create-custom-form-in-drupal-8", "text" : "I have seen the effectiveness of the Form API", "title" : "Creating Custom Forms in Drupal 8", "description" : "A gentle introduction to creating forms in Drupal 8, highlighting the differences and similarities to how you would do this in previous versions of the platform" -->
+
+<!-- @task, "text" : "Create a custom form." -->
 
 ## A Look Inside Drupal 8's Block Plugin API
 
 Any and all pages on a Drupal 8 site are built with blocks. Yes, the main page content is a block, too.
 
 <!-- @link, "url" : "https://drupalize.me/blog/201404/look-inside-drupal-8s-block-plugin-api", "text" : "I have learned how easy is creating a custom block", "title" : "A Look Inside Drupal 8's Block Plugin API", "description" : "This blog post takes a look at how a module developer might create custom blocks in Drupal 8" -->
+
+<!-- @task, "text" : "Create a custom block." -->
 
 ## Building a Drupal 8 Module: Blocks and Forms
 
@@ -63,13 +71,15 @@ Single pages, single forms, single-page forms are easy, but what about a multi-s
 
 Form alteration has not changed too much since Drupal 7. You should add a `hook_form_alter()` implementation to your `.module` file, and the only difference in its signature is the same as with the form builder, validate and submit functions: the `$form_state` is no longer an array but a [`\Drupal\Core\Form\FormStateInterface`](https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Form%21FormStateInterface.php/interface/FormStateInterface/8) object.
 
-<!-- @task, "text" : "Create your own `hook_form_alter()` implementation." -->
+<!-- @task, "text" : "Create your own hook_form_alter() implementation." -->
 
 ## Using AJAX forms in Drupal 8
 
 We all know AJAX can make our lives nicer, although a bit more complicated in some cases. And no, it's not about the football club nor the cleaner.
 
 <!-- @link, "url": "http://www.sitepoint.com/using-ajax-forms-drupal-8/", "text" : "I have learned that AJAXifying forms got even more powerful", "title" : "Using AJAX forms in Drupal 8", "description" : "A clean way of using the Drupal 8 Ajax API without writing a single line of JavaScript code", "imageUrl" : "http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2014/07/1404316515drupal8wide-1024x332.png" -->
+
+<!-- @task, "text" : "AJAXify your custom form without writing JavaScript code." -->
 
 <!-- @section -->
 
@@ -81,6 +91,8 @@ Want a basic phonebook? Here's one.
 <!-- @link, "url" : "https://github.com/boobaa/d7to8/blob/master/phonebook.md", "text" : "I have seen how cumbersome could be knocking a phonebook together", "title" : "Old-fashioned phonebook", "description" : "List all the entries in a sortable, pagered page; use the same form for adding and editing entries; protect deletion against CSRF without forms" -->
 
 It would be easier if we could use Views, at least for the listing part, wouldn't it? Well, that part is not written yet.
+
+<!-- @task, "text" : "Submit a pull request that adds Views integration for the old-fashioned phonebook." -->
 
 <!-- @section -->
 
@@ -99,6 +111,8 @@ Okay, we couldn't find the description of the code Daniel Sipos has published, b
 
 <!-- @link, "url" : "https://github.com/upchuk/d8-demo-modules/tree/master/npq/src", "text" : "I have understood that Queue API workers are annotated plugins", "title" : "Node Publish Queue module", "description" : "Demo module illustrating the Queue API in Drupal 8" -->
 
+<!-- @task, "text" : "Submit a pull request that creates a form which lets one add phonebook entries from a CSV file using either the Batch or the Queue API." -->
+
 <!-- @section -->
 
 # Mail API
@@ -110,6 +124,8 @@ Sending a mail is pretty much the same, although we're using a service now.
 We can even replace the Drupal mail manager service with one that uses a 3rd-party service. Confusing, isn't it?
 
 <!-- @link, "url" : "http://code.tutsplus.com/tutorials/using-and-extending-the-drupal-8-mail-api-part-2--cms-23484", "text" : "I have seen how to use an external service for sending mail", "title" : "Using and Extending the Drupal 8 Mail API, Part 2: Using an external service", "description" : "Look at how we can use the Mail API to extend the default behaviour. The purpose is to use an external service as a means for email delivery", "imageUrl" : "https://thumbsplus.tutsplus.com/uploads/users/34/posts/23419/preview_image/drupal.png" -->
+
+<!-- @task, "text" : "Submit a pull request that sends an email when the name of a new phonebook entry is an email, informing the recipient of being added to the site." -->
 
 <!-- @section -->
 
@@ -135,6 +151,8 @@ Forms may have their initial configuration values in `.settings.yml` files.
 
 <!-- @link, "url" : "https://docs.acquia.com/articles/drupal-8-configuration-forms-and-cmi", "text" : "I have understood the basics of the Config Management", "title" : "Configuration forms and CMI", "description" : "This lesson introduces both a special type of form called a configuration form and the Configuration Management Initiative (CMI), which describes the effort made to gather the multiple sources of configuration information and functions in Drupal 7 into a single system in Drupal 8", "imageUrl" : "https://www.acquia.com/sites/default/files/d8ultimateguide_301x177.jpg" -->
 
+<!-- @task, "text" : "Submit a pull request that sends an email to a configurable address when a new phonebook entry is created." -->
+
 Configuration has its own entities.
 
 <!-- @link, "url" : "https://docs.acquia.com/articles/drupal-8-configuration-and-config-object", "text" : "I have learned about config entities", "title" : "Configuration and the config object", "description" : "Drupal 8 provides a Config object that we can use to interact with the configuration. Some classes already have it available through dependency injection", "imageUrl" : "https://www.acquia.com/sites/default/files/d8ultimateguide_301x177.jpg" -->
@@ -153,6 +171,8 @@ With the advent of CMI, all Drupal 8 developers should know the basics of the co
 
 Configuration workflow (ie. how to export config, move it around with git, import it on the other instance, etc.) will be covered later.
 
+<!-- @task, "text" : "Bookmark some CMI-related resources yourself for later usage." -->
+
 <!-- @section -->
 
 # Fields: types, widgets, formatters, pseudo fields
@@ -162,6 +182,8 @@ Configuration workflow (ie. how to export config, move it around with git, impor
 Learning the Field API should start with the easiest things like custom fields and formatters.
 
 <!-- @link, "url": "http://capgemini.github.io/drupal/writing-custom-fields-in-drupal-8/", "text" : "I have written at least one custom formatter", "title" : "Writing custom fields in Drupal 8", "description" : "Fields are the data entry points to a web application. Usually, they provide HTML elements and may be responsible for any manipulation of data before it goes into and comes out of the application", "imageUrl" : "http://capgemini.github.io/images/FieldsDrupalCampLondon2015-005.jpg" -->
+
+<!-- @task, "text" : "Write a field formatter that replaces *text between asterisks* with bold text when a single-line text field is rendered." -->
 
 ## Creating pseudo-fields in Drupal 8
 
@@ -191,6 +213,8 @@ Yeah, you read it right: you should stop providing HTML as the return values of 
 
 <!-- @link, "url": "https://www.drupal.org/developing/api/8/render/arrays/cacheability", "text" : "I have understood that I should provide caching-related information in the render arrays", "title" : "Cacheability of render arrays", "description" : "Render arrays determine what is shown to the user. Therefore, arrays also determine how cacheable a response is", "imageUrl" : "https://www.drupal.org/files/drupal%208%20logo%20isolated%20CMYK%2072.png" -->
 
+<!-- @task, "text" : "Submit a pull request to the phonebook example that lets the phonebook index page be cached as long as it is possible." -->
+
 <!-- @section -->
 
 # Events and event subscribers
@@ -198,6 +222,8 @@ Yeah, you read it right: you should stop providing HTML as the return values of 
 A lot of hooks became obsolete as Drupal 8 has switched to Symfony and its event dispatcher approach.
 
 <!-- @link, "url": "http://www.sitepoint.com/drupal-8-hooks-symfony-event-dispatcher/", "text" : "I have seen how some hooks got replaced by Symfony events", "title" : "Drupal 8 Hooks and the Symfony Event Dispatcher", "description" : "The both loved and hated hook system is getting slowly replaced. Plugins and annotations are taking away much of the need for info hooks and the Symfony Event Dispatcher component is replacing some of the invoked hooks", "imageUrl" : "http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2014/10/1412889376drupal8wide.png" -->
+
+<!-- @task, "text" : "Replace the code that sends a mail to a configurable address when a new phonebook entry is created with a Symfony event so other modules can act on it as well." -->
 
 <!-- @section -->
 
@@ -224,3 +250,5 @@ That's correct: Views became part of core! You should learn how to code around c
 So you should learn how to code around custom Views filters.
 
 <!-- @link, "url": "http://www.webomelette.com/creating-custom-views-filter-drupal-8", "text" : "I have learned how easy it is to create a custom Views filter", "title" : "Creating a custom Views filter in Drupal 8", "description" : "How can we create a custom filter you can then add to the View in the UI and influence the results based on that", "imageUrl" : "http://www.webomelette.com/sites/default/files/pictures/picture-1-1439662760.jpg" -->
+
+<!-- @task, "text" : "Update your pull request for providing Views integration for the old-fashioned phonebook so the index page can be built with Views and it can have filters as well." -->
