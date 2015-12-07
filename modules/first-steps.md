@@ -14,7 +14,7 @@
 
 # What is Drupal 8?
 
-A new platform is best described by its creators. Although we all know Drupal 8 has been developed by 3.300+ people, the core committers are the gatekeepers for this huge effort. Here is what *they* think the best to know about Drupal 8.
+A new platform is best described by its creators. Although we all know Drupal 8 has been developed by 3.300+ people, the core committers are the gatekeepers for this huge effort. Here is what *they* think is best to know about Drupal 8.
 
 <!-- @link, "url" : "https://docs.google.com/presentation/d/1GXK1dBSe6_QMhSkNwsgocWynlzdQFrMUouaOqA8wyUI", "text" : "I have watched the slideshow", "title" : "Drupal 8 Preview slideshow", "description" : "The Drupal 8 Preview slideshow is maintained by core contributors and committers" -->
 

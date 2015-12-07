@@ -89,7 +89,7 @@ Increased flexibility with regards to multilingualism comes with increased compl
 
 # String customizations tracked
 
-There is good news: you will not lose your precious custom translations.
+Good news: you will not lose your precious custom translations.
 
 <!-- @link, "url" : "http://hojtsy.hu/blog/2013-aug-13/drupal-8-multilingual-tidbits-11-string-customizations-tracked", "text" : "I have learned that my custom translations are kept", "title" : "String customizations tracked", "description" : "We know that not everybody is happy with the community translations proper. So another key feature we included in Drupal 8 is custom translation tracking", "imageUrl" : "http://hojtsy.hu/files/Drupal8StringExportOptions.png" -->
 
@@ -101,7 +101,7 @@ Since English is no longer an exception amongst other languages, it can be a tra
 
 # Much improved software translation UI
 
-Your translation experience became a whole lot streamlined.
+Your translation experience became a whole lot more streamlined.
 
 <!-- @link, "url" : "http://hojtsy.hu/blog/2013-aug-20/drupal-8-multilingual-tidbits-13-much-improved-software-translation-ui", "text" : "I have seen the highly convenient translation interface", "title" : "Much improved software translation UI", "description" : "We cut out two unnecessary steps and brought in a very quick translation experience instead which even shows you which translations you changed as you go along", "imageUrl" : "http://hojtsy.hu/files/Drupal8TranslationForm.png" -->
 
@@ -137,7 +137,7 @@ Once configuration is translated, we are ready to delve into content translation
 
 # Core content translation workflow
 
-Most complex systems provide different ways to achieve the same results. You should know what is the method core supports for content translation.
+Most complex systems provide different ways to achieve the same results. You should know what method core supports for content translation.
 
 <!-- @link, "url" : "http://hojtsy.hu/blog/2015-nov-10/drupal-8-multilingual-tidbits-18-core-content-translation-workflow", "text" : "I have learned how to translate content in a core-supported way", "title" : "Core content translation workflow", "description" : "What do we do to translate content?", "imageUrl" : "http://hojtsy.hu/files/Drupal8ContentAdminTranslations.png" -->
 
