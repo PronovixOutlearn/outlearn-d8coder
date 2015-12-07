@@ -24,5 +24,6 @@ A new platform is best described by its creators. Although we all know Drupal 8 
 
 The first step in coding for a new platform is the `Hello World!` example.
 
-<!-- @link, "url" : "https://www.drupal.org/node/2464195", "text" : "I have created my own Hello World module", "title" : "A Hello World Custom Page Module", "description" : "The following section will walk you through the creation of a simple module", "imageUrl" : "https://www.drupal.org/files/drupal%208%20logo%20isolated%20CMYK%2072.png" -->
+<!-- @link, "url" : "https://www.drupal.org/node/2464195", "title" : "A Hello World Custom Page Module", "description" : "The following section will walk you through the creation of a simple module", "imageUrl" : "https://www.drupal.org/files/drupal%208%20logo%20isolated%20CMYK%2072.png" -->
 
+<!-- @task, "text" : "Create your own Hello World! module." -->
