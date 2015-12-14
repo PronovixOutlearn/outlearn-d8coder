@@ -109,6 +109,8 @@ Hate context switches? Get things done in batches!
 
 Okay, we couldn't find the description of the code Daniel Sipos has published, but the example is great nonetheless. When a node is created as unpublished, it gets added to a queue. That queue can be processed in two ways: by submitting a form, which triggers running the `manual_node_publisher` worker, or by running cron, which triggers the `cron_node_publisher` worker. Both extend the [`NodePublishBase`](https://github.com/upchuk/d8-demo-modules/blob/master/npq/src/Plugin/QueueWorker/NodePublishBase.php) which is not recognized as a queue worker plugin since it does not have the required annotation. In the case of `cron_node_publisher` worker the runtime is limited to 10 seconds by its annonation.
 
+UPDATE 12/14/2015: The author just [posted an article about his Queue API demo](http://www.sitepoint.com/drupal-8-queue-api-powerful-manual-and-cron-queueing/).
+
 <!-- @link, "url" : "https://github.com/upchuk/d8-demo-modules/tree/master/npq/src", "text" : "I have understood that Queue API workers are annotated plugins", "title" : "Node Publish Queue module", "description" : "Demo module illustrating the Queue API in Drupal 8" -->
 
 <!-- @task, "text" : "Submit a pull request that creates a form which lets one add phonebook entries from a CSV file using either the Batch or the Queue API." -->
