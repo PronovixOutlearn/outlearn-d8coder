@@ -4,7 +4,6 @@
 "version" : "0.1",
 "title" : "Grounding",
 "description" : "Without proper foundation, every house will collapse",
-"homepage" : "https://www.drupal.org/node/2182165",
 "freshnessDate" : 2015-11-24,
 "license" : "CC BY 4.0"
 }

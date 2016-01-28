@@ -4,7 +4,6 @@
 "version" : "0.1",
 "title" : "Multilingual Drupal 8",
 "description" : "There is an amazing set of new features and improvements in Drupal 8 core, and I'm going through them one by one so you get to know what is coming and also I can highlight the issues that you can still help with to make these better. I believe Drupal 8 will be a huge release for multilingual, but it can always be even better of course.",
-"homepage" : "http://hojtsy.hu/multilingual-drupal8",
 "freshnessDate" : 2015-12-01
 }
 -->

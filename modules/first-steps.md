@@ -4,7 +4,6 @@
 "version" : "0.1",
 "title" : "First steps",
 "description" : "First steps in Drupal 8 module development is to know the novelties of the platform",
-"homepage" : "https://www.drupal.org/node/2464195",
 "freshnessDate" : 2015-11-24,
 "license" : "CC BY 4.0"
 }

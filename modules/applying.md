@@ -4,7 +4,6 @@
 "version" : "0.1",
 "title" : "Applying the gathered knowledge",
 "description" : "Let's start using that knowledge",
-"homepage" : "https://www.drupal.org/node/2182165",
 "freshnessDate" : 2015-11-25,
 "license" : "CC BY 4.0"
 }
